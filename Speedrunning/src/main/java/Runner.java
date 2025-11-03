@@ -77,15 +77,30 @@ public class Runner {
     }
 
 
-    public LocalDate getJoinDate() { return Join_Date; }
+    public LocalDate getJoinDate() {
+        return Join_Date;
+    }
 
-    public void setJoinDate(LocalDate joinDate) { Join_Date = joinDate; }
+    public void setJoinDate(LocalDate joinDate) {
+        Join_Date = joinDate;
+    }
 
     @Override
     public String toString() {
         return "Name: " + this.Name + "\nGame: " + this.Game + "\nRuns Amount: "
                 + this.Runs_Amount + "\nCommunity Rating: " + this.Community_Rating
-                + "\nHas World Record: " + this.Has_World_Record +  "\nJoin Date: " + this.Join_Date
+                + "\nHas World Record: " + this.Has_World_Record + "\nJoin Date: " + this.Join_Date
                 + "\nLast Submission: " + this.LastSubmission;
+    }
+
+    public boolean equals(Runner otherObject){
+        if(otherObject == null){ return false;}
+        else if(getClass() != otherObject.getClass()){ return false;}
+        Runner other = (Runner) otherObject;
+
+        return Name.equals(other.Name)
+                && Runs_Amount == other.Runs_Amount
+                && Community_Rating == other.Community_Rating
+                && Join_Date.equals(other.Join_Date);
     }
 }
