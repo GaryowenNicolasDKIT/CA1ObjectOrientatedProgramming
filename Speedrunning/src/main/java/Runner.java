@@ -103,4 +103,23 @@ public class Runner {
                 && Community_Rating == other.Community_Rating
                 && Join_Date.equals(other.Join_Date);
     }
+
+    public double RattingChage (double change){
+        this.Community_Rating = this.Community_Rating + change;
+        return this.Community_Rating;
+    }
+
+    public int RunChange (int change){
+        this.Runs_Amount = this.Runs_Amount + change;
+        return this.Runs_Amount;
+    }
+
+    public int DisplayByName(String name){
+        if(this.Name.equals(name)){
+            return 1;
+        }
+        else{
+            return 0;
+        }
+    }
 }
