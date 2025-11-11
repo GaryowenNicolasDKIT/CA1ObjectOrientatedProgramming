@@ -1,6 +1,7 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Date;
+import java.util.Objects;
 
 public class Runner {
     private String Name;
@@ -28,8 +29,8 @@ public class Runner {
         Runs_Amount = runs_Amount;
         Community_Rating = community_Rating;
         Has_World_Record = has_world_Record;
-        Join_Date = LocalDate.now();
-        LastSubmission = LocalDateTime.now();
+        //Join_Date = LocalDate.now();
+        //LastSubmission = LocalDateTime.now();
     }
 
     public String getName() {
@@ -68,7 +69,7 @@ public class Runner {
     }
 
 
-    public boolean isHas_World_Record() {
+    public boolean getHas_World_Record() {
         return Has_World_Record;
     }
 
@@ -85,12 +86,26 @@ public class Runner {
         Join_Date = joinDate;
     }
 
+    public LocalDateTime getLastSubmission() { return LastSubmission; }
+
+    public void setLastSubmission(LocalDateTime lastSubmission) { LastSubmission = lastSubmission; }
+
     @Override
     public String toString() {
-        return "Name: " + this.Name + "\nGame: " + this.Game + "\nRuns Amount: "
+        return "\n============\nName: " + this.Name + "\nGame: " + this.Game + "\nRuns Amount: "
                 + this.Runs_Amount + "\nCommunity Rating: " + this.Community_Rating
                 + "\nHas World Record: " + this.Has_World_Record + "\nJoin Date: " + this.Join_Date
-                + "\nLast Submission: " + this.LastSubmission;
+                + "\nLast Submission: " + this.LastSubmission + "\n============";
+    }
+
+    public String toStringForList(String delimiter) {
+        return this.Name + delimiter + this.Game + delimiter + this.Runs_Amount + delimiter
+                + this.Community_Rating +  delimiter + this.Has_World_Record + delimiter + this.Join_Date + delimiter + this.LastSubmission + "\n";
+    }
+
+    public String toStringForListTemp(String delimiter){
+        return this.Name + delimiter + this.Game + delimiter + this.Runs_Amount + delimiter
+                + this.Community_Rating +  delimiter + this.Has_World_Record + "\n";
     }
 
     public boolean equals(Runner otherObject){
@@ -104,7 +119,7 @@ public class Runner {
                 && Join_Date.equals(other.Join_Date);
     }
 
-    public double RattingChage (double change){
+    public double RatingChange (double change){
         this.Community_Rating = this.Community_Rating + change;
         return this.Community_Rating;
     }
@@ -121,5 +136,10 @@ public class Runner {
         else{
             return 0;
         }
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(Name, Game, Runs_Amount, Community_Rating, Has_World_Record, Join_Date, LastSubmission);
     }
 }
