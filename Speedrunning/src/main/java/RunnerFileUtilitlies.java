@@ -23,7 +23,7 @@ public class RunnerFileUtilitlies {
             while ((line = bufferedReader.readLine()) != null) {
 
                     String[] data = line.split(deLimiter);
-                    System.out.println(Arrays.toString(data));
+                    //System.out.println(Arrays.toString(data));
                     if (data.length != 5) { throw new IllegalArgumentException("Wrong data format"); }
                     //System.out.println(Arrays.toString(data));
 
