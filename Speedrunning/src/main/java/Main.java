@@ -38,9 +38,28 @@ public class Main {
                 AddNumOfRuns(r1);
                 System.out.println(r1.toString());
             } else if (choice == 3) {
-                RunnerNameComparator NameCompare = new RunnerNameComparator();
-                Collections.sort(RunnersList, NameCompare);
-                System.out.println(RunnersList);
+                boolean doneSort = false;
+                while (doneSort != true){
+                    int sortChoice = sortMenu();
+                    if(sortChoice == 1){
+                        sortByName();
+                    }
+                    else if (sortChoice == 2){
+                        sortByGame();
+                    }
+                    else if (sortChoice == 3){
+                        sortByRuns();
+                    }
+                    if(sortChoice == 4){
+                        sortByRating();
+                    }
+                    else if (sortChoice == 5){
+                        sortByJoin();
+                    }
+                    else{
+                        doneSort = true;
+                    }
+                }
             } else if (choice == 4) {
                 for (Runner runner : RunnersList) {
                     System.out.println(runner);
@@ -82,13 +101,27 @@ public class Main {
     public static int Menu() {
         Scanner s = new Scanner(System.in);
         int choice = 0;
-        System.out.println("What funtion do you wish to run:\n" +
+        System.out.println("What function do you wish to run:\n" +
                 "0 = Exit \n" +
                 "1 = Change Community Rating \n" +
-                "2 = Add runs \n" +
+                "2 = Add Runs \n" +
                 "3 = Sort Players \n" +
                 "4 = Display Players \n" +
                 "5 = Add new Runner");
+        choice = s.nextInt();
+        return choice;
+    }
+
+    public static int sortMenu() {
+        Scanner s = new Scanner(System.in);
+        int choice = 0;
+        System.out.println("What sort do you wish to perform:\n" +
+                "1 = Sort By Name (Alphabetically) \n" +
+                "2 = Sort By Game (Alphabetically) \n" +
+                "3 = Sort By Runs (Numerically DESC) \n" +
+                "4 = Sort By Rating (Numerically DESC) \n" +
+                "5 = Sort By Join Date (Date) \n" +
+                "6 = Back To Main Menu");
         choice = s.nextInt();
         return choice;
     }
@@ -104,10 +137,49 @@ public class Main {
     public static void addRunnerToFile(Runner r1) {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         r.addRunnerRecordToFile("data.txt",", ", r1);
+        sortByGame();
+        System.out.println("\n Runner Added & List Sorted by Game \n ");
+    }
+
+    public static void sortByName() {
+        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
+        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        RunnerNameComparator NameCompare = new RunnerNameComparator();
+        Collections.sort(tempRunnersList, NameCompare);
+        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        System.out.println("\n Runners List Sorted By Name \n");
+    }
+    public static void sortByGame() {
+        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerGameComparator GameCompare = new RunnerGameComparator();
         Collections.sort(tempRunnersList, GameCompare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        System.out.println("\n Runners List Sorted By Game \n");
+    }
+    public static void sortByJoin() {
+        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
+        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        RunnerJoinComparator Compare = new RunnerJoinComparator();
+        Collections.sort(tempRunnersList, Compare);
+        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        System.out.println("\n Runners List Sorted By Game \n");
+    }
+    public static void sortByRating() {
+        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
+        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        RunnerRatingComparator Compare = new RunnerRatingComparator();
+        Collections.sort(tempRunnersList, Compare);
+        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        System.out.println("\n Runners List Sorted By Game \n");
+    }
+    public static void sortByRuns() {
+        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
+        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        RunnerRunsComparator Compare = new RunnerRunsComparator();
+        Collections.sort(tempRunnersList, Compare);
+        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        System.out.println("\n Runners List Sorted By Game \n");
     }
 }
 
