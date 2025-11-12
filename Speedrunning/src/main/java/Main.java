@@ -21,9 +21,9 @@ public class Main {
         Runner r2 = new Runner("Jack", "New Super Mario Bros", 5, 25.4, false);
         Runner r3 = new Runner("Henry", "FNAF SB", 120, 122.5, true);
 
-        addRunnerToFile(r1);
-        addRunnerToFile(r2);
-        addRunnerToFile(r3);
+        //addRunnerToFile(r1);
+        //addRunnerToFile(r2);
+        //addRunnerToFile(r3);
 
 
 
@@ -145,7 +145,7 @@ public class Main {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerNameComparator NameCompare = new RunnerNameComparator();
-        Collections.sort(tempRunnersList, NameCompare);
+        tempRunnersList.sort(NameCompare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Name \n");
     }
@@ -153,7 +153,7 @@ public class Main {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerGameComparator GameCompare = new RunnerGameComparator();
-        Collections.sort(tempRunnersList, GameCompare);
+        tempRunnersList.sort(GameCompare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Game \n");
     }
@@ -161,7 +161,7 @@ public class Main {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerJoinComparator Compare = new RunnerJoinComparator();
-        Collections.sort(tempRunnersList, Compare);
+        tempRunnersList.sort(Compare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Game \n");
     }
@@ -169,7 +169,7 @@ public class Main {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerRatingComparator Compare = new RunnerRatingComparator();
-        Collections.sort(tempRunnersList, Compare);
+        tempRunnersList.sort(Compare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Game \n");
     }
@@ -177,7 +177,7 @@ public class Main {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerRunsComparator Compare = new RunnerRunsComparator();
-        Collections.sort(tempRunnersList, Compare);
+        tempRunnersList.sort(Compare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Game \n");
     }

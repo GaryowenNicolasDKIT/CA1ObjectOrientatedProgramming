@@ -21,20 +21,22 @@ public class RunnerFileUtilitlies {
             String line;
 
             while ((line = bufferedReader.readLine()) != null) {
-                String[] data = line.split(deLimiter);
-                if (data.length != 5) { throw new IllegalArgumentException("Wrong data format"); }
-                //System.out.println(Arrays.toString(data));
 
-                String name = data[0];
-                String game = data[1];
-                int Runs_Amount = Integer.parseInt(data[2]);
-                double Community_Rating = Double.parseDouble(data[3]);
-                Boolean Has_World_Record = Boolean.parseBoolean(data[4]);
-                //LocalDate joinDate = LocalDate.parse(data[5]);
-                //LocalDateTime lastSubmission = LocalDateTime.parse(data[6]);
+                    String[] data = line.split(deLimiter);
+                    System.out.println(Arrays.toString(data));
+                    if (data.length != 5) { throw new IllegalArgumentException("Wrong data format"); }
+                    //System.out.println(Arrays.toString(data));
 
-                Runner runner = new Runner(name, game,  Runs_Amount, Community_Rating, Has_World_Record);
-                runnerList.add(runner);
+                    String name = data[0];
+                    String game = data[1];
+                    int Runs_Amount = Integer.parseInt(data[2]);
+                    double Community_Rating = Double.parseDouble(data[3]);
+                    Boolean Has_World_Record = Boolean.parseBoolean(data[4]);
+                    //LocalDate joinDate = LocalDate.parse(data[5]);
+                    //LocalDateTime lastSubmission = LocalDateTime.parse(data[6]);
+
+                    Runner runner = new Runner(name, game,  Runs_Amount, Community_Rating, Has_World_Record);
+                    runnerList.add(runner);
             }
         } catch (IOException e) {
             e.printStackTrace();
