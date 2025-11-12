@@ -15,8 +15,8 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
-        new Scanner(System.in);
-        new Random();
+        Scanner s = new Scanner(System.in);
+        Random ran = new Random();
         Runner r1 = new Runner("John", "Mario", 1, 0.01, false);
         Runner r2 = new Runner("Jack", "New Super Mario Bros", 5, 25.4, false);
         Runner r3 = new Runner("Henry", "FNAF SB", 120, 122.5, true);
@@ -67,6 +67,20 @@ public class Main {
             } else if (choice == 5) {
 
             }
+
+            //player picks what names to display
+            else if (choice == 6) {
+
+                    System.out.println("What runner do you wish to view: ");
+                    String searchName = s.nextLine();
+
+                    for(int i = 0; i < RunnersList.size(); i++){
+                        if(RunnersList.get(i).getName().equals(searchName)){
+                            System.out.println(RunnersList.get(i));
+                        }
+                    }
+
+            }
         }
 
     }
@@ -107,7 +121,8 @@ public class Main {
                 "2 = Add Runs \n" +
                 "3 = Sort Players \n" +
                 "4 = Display Players \n" +
-                "5 = Add new Runner");
+                "5 = Add new Runner\n" +
+                "6 = Diplay Selected Player");
         choice = s.nextInt();
         return choice;
     }
@@ -126,13 +141,6 @@ public class Main {
         return choice;
     }
 
-    //player picks what names to display
-    public static void NameDisplay(Runner r) {
-        Scanner s = new Scanner(System.in);
-        System.out.println("What runner do you wish to view: ");
-        String searchName = s.nextLine();
-        //int Contained = Runner.DisplayByName(name);
-    }
 
     public static void addRunnerToFile(Runner r1) {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
@@ -181,6 +189,12 @@ public class Main {
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Game \n");
     }
+
+    /*public static int DisplaySubMenu{
+        int choice = 0;
+
+        return choice;
+    }*/
 }
 
 

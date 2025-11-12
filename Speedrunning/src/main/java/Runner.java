@@ -129,14 +129,14 @@ public class Runner {
         return this.Runs_Amount;
     }
 
-    public int DisplayByName(String name){
-        if(this.Name.equals(name)){
+    /*public int DisplayByName(String name, String ChosenName){
+        if(name.equals(ChosenName)){
             return 1;
         }
         else{
             return 0;
         }
-    }
+    }*/
 
     @Override
     public int hashCode() {

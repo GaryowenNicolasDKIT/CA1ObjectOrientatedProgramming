@@ -1,7 +1,7 @@
-Jack, New Super Mario Bros, 5, 25.4, false
-John, Mario, 1, 0.01, false
-John, Mario, 1, 0.01, false
-Josh, Halo 2, 26, 35.3, true
 Matthew, FNAF SB, 234, 244.3, true
-Sarah, Spiderman, 12, 15.6, true
+Josh, Halo 2, 26, 35.3, true
 Sarah, Halo CE, 12, 22.3, true
+John, Mario, 1, 0.01, false
+John, Mario, 1, 0.01, false
+Jack, New Super Mario Bros, 5, 25.4, false
+Sarah, Spiderman, 12, 15.6, true
