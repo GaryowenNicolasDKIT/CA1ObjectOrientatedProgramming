@@ -68,18 +68,47 @@ public class Main {
 
             }
 
-            //player picks what names to display
+            //show by certain criteria
             else if (choice == 6) {
+                int ShowChoice = DisplaySubMenu();
 
-                    System.out.println("What runner do you wish to view: ");
-                    String searchName = s.nextLine();
+                while(ShowChoice != 0) {
 
-                    for(int i = 0; i < RunnersList.size(); i++){
-                        if(RunnersList.get(i).getName().equals(searchName)){
-                            System.out.println(RunnersList.get(i));
+                    //show all users using a given name
+                    if(ShowChoice == 1) {
+                        System.out.println("What runner do you wish to view: ");
+                        String searchName = s.nextLine();
+
+                        for (int i = 0; i < RunnersList.size(); i++) {
+                            if (RunnersList.get(i).getName().indexOf(searchName) > -1) {
+                                System.out.println(RunnersList.get(i));
+                            }
                         }
                     }
 
+                    //show all users using given game
+                    else if (ShowChoice == 2) {
+                        System.out.println("What game do you wish to view: ");
+                        String searchGame = s.nextLine();
+
+                        for (int i = 0; i < RunnersList.size(); i++) {
+                            if (RunnersList.get(i).getGame().indexOf(searchGame) > -1) {
+                                System.out.println(RunnersList.get(i));
+                            }
+                        }
+                    }
+
+                    //show all users who have a world record
+                    else if(ShowChoice == 3){
+                        for (int i = 0; i < RunnersList.size(); i++) {
+                            if (RunnersList.get(i).getHas_World_Record() == true) {
+                                System.out.println(RunnersList.get(i));
+                            }
+                        }
+                    }
+
+                    ShowChoice = DisplaySubMenu();
+                }
             }
         }
 
@@ -122,7 +151,7 @@ public class Main {
                 "3 = Sort Players \n" +
                 "4 = Display Players \n" +
                 "5 = Add new Runner\n" +
-                "6 = Diplay Selected Player");
+                "6 = Diplay specific users");
         choice = s.nextInt();
         return choice;
     }
@@ -190,11 +219,20 @@ public class Main {
         System.out.println("\n Runners List Sorted By Game \n");
     }
 
-    /*public static int DisplaySubMenu{
-        int choice = 0;
+    public static int DisplaySubMenu(){
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("What catagory would you like to search users by:\n" +
+                           "1: Name\n" +
+                           "2: Game\n" +
+                           "3: who has a world record\n" +
+                           "4: return back to main menu");
+
+        int choice = s.nextInt();
+
 
         return choice;
-    }*/
+    }
 }
 
 
