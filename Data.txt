@@ -5,3 +5,5 @@ John, Mario, 1, 0.01, false
 John, Mario, 1, 0.01, false
 Jack, New Super Mario Bros, 5, 25.4, false
 Sarah, Spiderman, 12, 15.6, true
+
+bill, Left 4 Dead, 0, 0.0, false

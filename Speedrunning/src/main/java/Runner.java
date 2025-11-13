@@ -33,6 +33,16 @@ public class Runner {
         //LastSubmission = LocalDateTime.now();
     }
 
+    public Runner(String name, String game) {
+        Name = name;
+        Game = game;
+        Runs_Amount = 0;
+        Community_Rating = 0;
+        Has_World_Record = false;
+        //Join_Date = LocalDate.now();
+        //LastSubmission = LocalDateTime.now();
+    }
+
     public String getName() {
         return Name;
     }

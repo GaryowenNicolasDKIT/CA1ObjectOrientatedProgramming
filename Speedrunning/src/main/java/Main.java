@@ -64,8 +64,17 @@ public class Main {
                 for (Runner runner : RunnersList) {
                     System.out.println(runner);
                 }
-            } else if (choice == 5) {
+            }
 
+            else if (choice == 5) {
+                System.out.println("Please insert the users name: ");
+                String newName = s.nextLine();
+                System.out.println("Please insert the game they are running: ");
+                String newGame = s.nextLine();
+
+                Runner R = new Runner (newName, newGame);
+                RunnersList.add(R);
+                addRunnerToFile(R);
             }
 
             //show by certain criteria

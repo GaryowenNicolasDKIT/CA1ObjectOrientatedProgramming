@@ -24,7 +24,7 @@ public class RunnerFileUtilitlies {
 
                     String[] data = line.split(deLimiter);
                     //System.out.println(Arrays.toString(data));
-                    if (data.length != 5) { throw new IllegalArgumentException("Wrong data format"); }
+                    //if (data.length != 7) { throw new IllegalArgumentException("Wrong data format"); }
                     //System.out.println(Arrays.toString(data));
 
                     String name = data[0];
