@@ -32,11 +32,13 @@ public class Main {
         for (int choice = Menu(); choice != 0; choice = Menu()) {
             List<Runner> RunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
             if (choice == 1) {
-                AskChange(r1);
-                System.out.println(r1.toString());
+                Runner runnerToChange = findRunner();
+                System.out.println(AskChange(runnerToChange));
+                System.out.println(runnerToChange.toString());
             } else if (choice == 2) {
-                AddNumOfRuns(r1);
-                System.out.println(r1.toString());
+                Runner runnerToChange = findRunner();
+                System.out.println(AddNumOfRuns(runnerToChange));
+                System.out.println(runnerToChange.toString());
             } else if (choice == 3) {
                 boolean doneSort = false;
                 while (doneSort != true){
@@ -85,14 +87,7 @@ public class Main {
 
                     //show all users using a given name
                     if(ShowChoice == 1) {
-                        System.out.println("What runner do you wish to view: ");
-                        String searchName = s.nextLine();
-
-                        for (int i = 0; i < RunnersList.size(); i++) {
-                            if (RunnersList.get(i).getName().indexOf(searchName) > -1) {
-                                System.out.println(RunnersList.get(i));
-                            }
-                        }
+                        System.out.println(findRunner());
                     }
 
                     //show all users using given game
@@ -124,7 +119,7 @@ public class Main {
     }
 
     //Community score changer
-    public static double AskChange(Runner r) {
+    public static String AskChange(Runner r) {
         Scanner s = new Scanner(System.in);
         double by = (double) 0.0F;
         System.out.println("Would you like to add or take away community score: ");
@@ -138,15 +133,28 @@ public class Main {
             by *= (double) -1.0F;
         }
 
-        return r.RatingChange(by);
+        r.RatingChange(by);
+        RunnerFileUtilitlies runF = new RunnerFileUtilitlies();
+        runF.updateRunnerRecordInFile("data.txt",", ", r);
+        return r.getName() + " now has a rating of " + r.getCommunity_Rating();
     }
 
     //lets player add a chosen number of runs to player
-    public static int AddNumOfRuns(Runner r) {
+    public static String AddNumOfRuns(Runner r) {
+        System.out.println("Runner = " + r.getName());
         Scanner s = new Scanner(System.in);
         System.out.println("Add how many more runs this user has done: ");
         int runs = s.nextInt();
-        return r.RunChange(runs);
+        System.out.println("Is this run a world record?");
+        String e = s.nextLine();
+        String wr = s.nextLine();
+        //if ((wr.equalsIgnoreCase("yes") || wr.equalsIgnoreCase("y")
+        //        || wr.equalsIgnoreCase("no") || wr.equalsIgnoreCase("n")) != true)
+        //        { throw new IllegalArgumentException("Wrong data format"); }
+        r.RunChange(runs, wr);
+        RunnerFileUtilitlies runF = new RunnerFileUtilitlies();
+        runF.updateRunnerRecordInFile("data.txt",", ", r);
+        return r.getName() + " now has " + r.getRuns_Amount() + " runs.";
     }
 
     //shows the user the menu options
@@ -179,6 +187,21 @@ public class Main {
         return choice;
     }
 
+    public static Runner findRunner(){
+        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
+        List<Runner> RunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        Scanner s = new Scanner(System.in);
+        System.out.println("What runner do you wish to view: ");
+        String searchName = s.nextLine();
+
+        for (int i = 0; i < RunnersList.size(); i++) {
+            if (RunnersList.get(i).getName().contains(searchName)) {
+                return RunnersList.get(i);
+            }
+        }
+        return null;
+
+    }
 
     public static void addRunnerToFile(Runner r1) {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();

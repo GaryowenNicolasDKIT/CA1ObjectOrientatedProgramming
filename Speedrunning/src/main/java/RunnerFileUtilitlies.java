@@ -23,17 +23,16 @@ public class RunnerFileUtilitlies {
             while ((line = bufferedReader.readLine()) != null) {
 
                     String[] data = line.split(deLimiter);
-                    //System.out.println(Arrays.toString(data));
-                    //if (data.length != 7) { throw new IllegalArgumentException("Wrong data format"); }
-                    //System.out.println(Arrays.toString(data));
+
+                    if (data.length != 7) { throw new IllegalArgumentException("Wrong data format"); }
 
                     String name = data[0];
                     String game = data[1];
                     int Runs_Amount = Integer.parseInt(data[2]);
                     double Community_Rating = Double.parseDouble(data[3]);
                     Boolean Has_World_Record = Boolean.parseBoolean(data[4]);
-                    //LocalDate joinDate = LocalDate.parse(data[5]);
-                    //LocalDateTime lastSubmission = LocalDateTime.parse(data[6]);
+                    LocalDate joinDate = LocalDate.parse(data[5]);
+                    LocalDateTime lastSubmission = LocalDateTime.parse(data[6]);
 
                     Runner runner = new Runner(name, game,  Runs_Amount, Community_Rating, Has_World_Record);
                     runnerList.add(runner);
@@ -54,8 +53,7 @@ public class RunnerFileUtilitlies {
             fileWriter.write(("\n" + runner.getName() + deLimiter + runner.getGame()
                     + deLimiter + runner.getRuns_Amount() + deLimiter +
                     runner.getCommunity_Rating() + deLimiter + runner.getHas_World_Record()
-                    + deLimiter //+ runner.getJoinDate().toString() + runner.getLastSubmission().toString()));*/
-            ));
+                    + deLimiter + runner.getJoinDate().toString() + deLimiter + runner.getLastSubmission().toString()));
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -76,10 +74,46 @@ public class RunnerFileUtilitlies {
              BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
 
             for (int i=0; i<runnerList.size(); i++) {
-                fileWriter.write(runnerList.get(i).toStringForListTemp(deLimiter));
+                if (i!= 0 ){fileWriter.write("\n");}
+                fileWriter.write(runnerList.get(i).toStringForList(deLimiter));
             }
 
 
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void updateRunnerRecordInFile(String fileName, String deLimiter, Runner runnerToUpdate){
+        ArrayList<Runner> tempRunners = new ArrayList<>();
+
+        try (FileReader fileReader = new FileReader(fileName);
+             BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+
+            String line;
+
+            while ((line = bufferedReader.readLine()) != null) {
+
+                String[] data = line.split(deLimiter);
+
+                //if (data.length != 7) { throw new IllegalArgumentException("Wrong data format"); }
+                if(data[0].equals(runnerToUpdate.getName()) &&  data[1].equals(runnerToUpdate.getGame())) {
+                    tempRunners.add(runnerToUpdate);
+                }
+                else {
+                    String name = data[0];
+                    String game = data[1];
+                    int Runs_Amount = Integer.parseInt(data[2]);
+                    double Community_Rating = Double.parseDouble(data[3]);
+                    Boolean Has_World_Record = Boolean.parseBoolean(data[4]);
+                    LocalDate joinDate = LocalDate.parse(data[5]);
+                    LocalDateTime lastSubmission = LocalDateTime.parse(data[6]);
+
+                    Runner runner = new Runner(name, game, Runs_Amount, Community_Rating, Has_World_Record);
+                    tempRunners.add(runner);
+                }
+            }
+            replaceRunnerRecordFile(fileName, deLimiter, tempRunners);
         } catch (IOException e) {
             e.printStackTrace();
         }

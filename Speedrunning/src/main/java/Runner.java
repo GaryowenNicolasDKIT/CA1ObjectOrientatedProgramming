@@ -29,8 +29,8 @@ public class Runner {
         Runs_Amount = runs_Amount;
         Community_Rating = community_Rating;
         Has_World_Record = has_world_Record;
-        //Join_Date = LocalDate.now();
-        //LastSubmission = LocalDateTime.now();
+        Join_Date = LocalDate.now();
+        LastSubmission = LocalDateTime.now();
     }
 
     public Runner(String name, String game) {
@@ -39,8 +39,8 @@ public class Runner {
         Runs_Amount = 0;
         Community_Rating = 0;
         Has_World_Record = false;
-        //Join_Date = LocalDate.now();
-        //LastSubmission = LocalDateTime.now();
+        Join_Date = LocalDate.now();
+        LastSubmission = LocalDateTime.now();
     }
 
     public String getName() {
@@ -110,12 +110,7 @@ public class Runner {
 
     public String toStringForList(String delimiter) {
         return this.Name + delimiter + this.Game + delimiter + this.Runs_Amount + delimiter
-                + this.Community_Rating +  delimiter + this.Has_World_Record + delimiter + this.Join_Date + delimiter + this.LastSubmission + "\n";
-    }
-
-    public String toStringForListTemp(String delimiter){
-        return this.Name + delimiter + this.Game + delimiter + this.Runs_Amount + delimiter
-                + this.Community_Rating +  delimiter + this.Has_World_Record + "\n";
+                + this.Community_Rating +  delimiter + this.Has_World_Record + delimiter + this.Join_Date + delimiter + this.LastSubmission;
     }
 
     public boolean equals(Runner otherObject){
@@ -134,8 +129,11 @@ public class Runner {
         return this.Community_Rating;
     }
 
-    public int RunChange (int change){
+    public int RunChange (int change, String WR){
         this.Runs_Amount = this.Runs_Amount + change;
+        if(WR.equalsIgnoreCase("yes") || WR.equalsIgnoreCase("y")){
+            this.Has_World_Record = true;
+        }
         return this.Runs_Amount;
     }
 
