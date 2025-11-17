@@ -14,17 +14,10 @@ import java.util.Collections;
 
 
 public class Main {
+    Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Random ran = new Random();
-        Runner r1 = new Runner("John", "Mario", 1, 0.01, false);
-        Runner r2 = new Runner("Jack", "New Super Mario Bros", 5, 25.4, false);
-        Runner r3 = new Runner("Henry", "FNAF SB", 120, 122.5, true);
-
-        //addRunnerToFile(r1);
-        //addRunnerToFile(r2);
-        //addRunnerToFile(r3);
-
 
 
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
@@ -148,9 +141,9 @@ public class Main {
         System.out.println("Is this run a world record?");
         String e = s.nextLine();
         String wr = s.nextLine();
-        //if ((wr.equalsIgnoreCase("yes") || wr.equalsIgnoreCase("y")
-        //        || wr.equalsIgnoreCase("no") || wr.equalsIgnoreCase("n")) != true)
-        //        { throw new IllegalArgumentException("Wrong data format"); }
+        if ((wr.equalsIgnoreCase("yes") || wr.equalsIgnoreCase("y")
+                || wr.equalsIgnoreCase("no") || wr.equalsIgnoreCase("n")) != true)
+                { throw new IllegalArgumentException("Wrong data format"); }
         r.RunChange(runs, wr);
         RunnerFileUtilitlies runF = new RunnerFileUtilitlies();
         runF.updateRunnerRecordInFile("data.txt",", ", r);
@@ -210,45 +203,50 @@ public class Main {
         System.out.println("\n Runner Added & List Sorted by Game \n ");
     }
 
-    public static void sortByName() {
+    public static String sortByName() {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerNameComparator NameCompare = new RunnerNameComparator();
         tempRunnersList.sort(NameCompare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Name \n");
+        return "\n Runners List Sorted By Name \n";
     }
-    public static void sortByGame() {
+    public static String sortByGame() {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerGameComparator GameCompare = new RunnerGameComparator();
         tempRunnersList.sort(GameCompare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Game \n");
+        return "\n Runners List Sorted By Game \n";
     }
-    public static void sortByJoin() {
+    public static String sortByJoin() {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerJoinComparator Compare = new RunnerJoinComparator();
         tempRunnersList.sort(Compare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Game \n");
+        System.out.println("\n Runners List Sorted By Join Date \n");
+        return "\n Runners List Sorted By Join Date \n";
     }
-    public static void sortByRating() {
+    public static String sortByRating() {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerRatingComparator Compare = new RunnerRatingComparator();
         tempRunnersList.sort(Compare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Game \n");
+        System.out.println("\n Runners List Sorted By Rating \n");
+        return  "\n Runners List Sorted By Rating \n";
     }
-    public static void sortByRuns() {
+    public static String sortByRuns() {
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
         List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
         RunnerRunsComparator Compare = new RunnerRunsComparator();
         tempRunnersList.sort(Compare);
         r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Game \n");
+        System.out.println("\n Runners List Sorted By Run Number \n");
+        return "\n Runners List Sorted By Run Number \n";
     }
 
     public static int DisplaySubMenu(){
