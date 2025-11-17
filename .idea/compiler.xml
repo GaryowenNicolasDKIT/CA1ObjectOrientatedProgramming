@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Speedrunning" />
+        <module name="Speedrunning (2)" />
         <module name="Speedrunning (1)" />
       </profile>
     </annotationProcessing>
