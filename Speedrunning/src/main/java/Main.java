@@ -110,9 +110,18 @@ public class Main {
 
             //counting how many games a player has run
             else if (choice == 7) {
-                System.out.println("Please insert the users name you wish to see how many games they've played: ");
+                System.out.println("Please insert the users name you wish to see how many games they've run: ");
                 String playerName = s.nextLine();
                 String output = NumOfGamesPlayed(playerName, RunnersList);
+
+                System.out.println(output);
+            }
+
+            //counting how many people playa certain game
+            else if (choice == 8) {
+                System.out.println("Please insert the game name you wish to see how many people run: ");
+                String GameName = s.nextLine();
+                String output = NumOfRunners(GameName, RunnersList);
 
                 System.out.println(output);
             }
@@ -171,7 +180,8 @@ public class Main {
                 "4 = Display Players \n" +
                 "5 = Add new Runner\n" +
                 "6 = Diplay specific users\n" +
-                "7 = How many games a player runs");
+                "7 = How many games a player runs\n"+
+                "8 = how many players run a a game");
         choice = s.nextInt();
         return choice;
     }
@@ -302,7 +312,7 @@ public class Main {
 
                 //test to see if a is being given a value
                 //System.out.println("runner" + a.getName());
-                gameCounter++;
+                //gameCounter++;
                 UserFound = true;
                 endLoop = true;
             }
@@ -328,7 +338,7 @@ public class Main {
                 //test if takes in runner for temp
                 //System.out.println(temp.getName());
 
-                if (a.hashCode() == temp.hashCode()) {
+                if (a.equals(temp)) {
                     gameCounter++;
                 }
             }
@@ -341,6 +351,63 @@ public class Main {
 
         return output;
 
+    }
+
+    public static String NumOfRunners(String game,List<Runner> ListOfPlayers){
+        String output = "";
+        int PlayerCounter = 0;
+        boolean GameFound = false;
+        boolean endLoop = false;
+        int counter = 0;
+        //temp info to let code run
+        Runner a = new Runner("AAAA", "AAAA");
+
+        while(!endLoop){
+
+            //test to see if function enters for loop
+            //System.out.println("Entered while loop");
+
+            if(game.equals(ListOfPlayers.get(counter).getGame())) {
+
+                //test
+                //System.out.println("If statment worked");
+
+                a = ListOfPlayers.get(counter);
+
+                //test to see if a is being given a value
+                //System.out.println("runner" + a.getName());
+                //PlayerCounter++;
+                GameFound = true;
+                endLoop = true;
+            }
+
+            counter++;
+
+            if(counter == ListOfPlayers.size()){
+                endLoop = true;
+            }
+
+        }
+
+        if(GameFound){
+            for (int j = 0; j < ListOfPlayers.size(); j++) {
+
+                Runner temp=  ListOfPlayers.get(j);
+                //test if takes in runner for temp
+                //System.out.println(temp.getName());
+
+                if (a.getGame().equals(temp.getGame())) {
+                    PlayerCounter++;
+                }
+            }
+            output = game + " has " + PlayerCounter + " player run it";
+        }
+
+        else{
+            output = "Game not found";
+        }
+
+        return output;
     }
 }
 
