@@ -125,6 +125,15 @@ public class Main {
 
                 System.out.println(output);
             }
+
+            //show all runners hascode
+            else if (choice == 9) {
+                for (Runner runner : RunnersList) {
+                    System.out.println(runner.getName() + " " +  runner.getGame());
+                    System.out.println("Their Hashcode: " + runner.hashCode());
+                }
+            }
+
         }
 
     }
@@ -181,7 +190,8 @@ public class Main {
                 "5 = Add new Runner\n" +
                 "6 = Diplay specific users\n" +
                 "7 = How many games a player runs\n"+
-                "8 = how many players run a a game");
+                "8 = how many players run a a game\n"+
+                "9 = show hascode for all runners");
         choice = s.nextInt();
         return choice;
     }
@@ -333,12 +343,16 @@ public class Main {
         if(UserFound){
             for (int j = 0; j < ListOfPlayers.size(); j++) {
 
+
                 Runner temp=  ListOfPlayers.get(j);
 
                 //test if takes in runner for temp
                 //System.out.println(temp.getName());
 
                 if (a.equals(temp)) {
+                    //temp to see if this code is running
+                    System.out.println("is this running or not");
+
                     gameCounter++;
                 }
             }
