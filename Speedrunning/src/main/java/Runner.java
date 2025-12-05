@@ -1,3 +1,4 @@
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -48,7 +49,12 @@ public class Runner {
     }
 
     public void setName(String name) {
-        Name = name;
+        if(name.equals("")){
+            throw new IllegalArgumentException("Wrong Data Format: Cannot Have Empty\nChange Not Saved");
+        }
+        else{
+            Name = name;
+        }
     }
 
 
@@ -57,8 +63,15 @@ public class Runner {
     }
 
     public void setGame(String game) {
-        Game = game;
+
+        if(game.equals("")){
+            throw new IllegalArgumentException("Wrong Data Format: Cannot Have Empty\nChange Not Saved");
+        }
+        else{
+            Game = game;
+        }
     }
+
 
 
     public int getRuns_Amount() {
@@ -66,7 +79,12 @@ public class Runner {
     }
 
     public void setRuns_Amount(int runs_Amount) {
-        Runs_Amount = runs_Amount;
+        if(runs_Amount < 0){
+            throw new IllegalArgumentException("Wrong Data Format: Cannot Have Negative Amount\nChange Not Saved");
+        }
+        else{
+            Runs_Amount = runs_Amount;
+        }
     }
 
 
@@ -74,9 +92,7 @@ public class Runner {
         return Community_Rating;
     }
 
-    public void setCommunity_Rating(double community_Rating) {
-        Community_Rating = community_Rating;
-    }
+    public void setCommunity_Rating(double community_Rating) {Community_Rating = community_Rating;}
 
 
     public boolean getHas_World_Record() {
@@ -92,11 +108,23 @@ public class Runner {
         return Join_Date;
     }
 
+    public Duration getYearsActive(){
+
+        return Duration.between(Join_Date, LocalDate.now());
+    }
+
     public void setJoinDate(LocalDate joinDate) {
         Join_Date = joinDate;
     }
 
+
+
     public LocalDateTime getLastSubmission() { return LastSubmission; }
+
+    public Duration getTimeSinceSubmission(){
+
+        return Duration.between(LastSubmission, LocalDateTime.now());
+    }
 
     public void setLastSubmission(LocalDateTime lastSubmission) { LastSubmission = lastSubmission; }
 

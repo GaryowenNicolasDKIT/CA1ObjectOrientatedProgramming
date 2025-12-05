@@ -22,18 +22,28 @@ public class Main {
 
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
 
+
+        //Main Menu Loop
         for (int choice = Menu(); choice != 0; choice = Menu()) {
             List<Runner> RunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+            //First Choice
             if (choice == 1) {
+                //Calls the find function
                 Runner runnerToChange = findRunner();
                 System.out.println(AskChange(runnerToChange));
                 System.out.println(runnerToChange.toString());
-            } else if (choice == 2) {
+            }
+            //Second Choice
+            else if (choice == 2) {
+                //Calls the runner to alter the run number of
                 Runner runnerToChange = findRunner();
                 System.out.println(AddNumOfRuns(runnerToChange));
-                System.out.println(runnerToChange.toString());
-            } else if (choice == 3) {
+                System.out.println(runnerToChange);
+            }
+            //Third Choice
+            else if (choice == 3) {
                 boolean doneSort = false;
+                //Sub-menu
                 while (doneSort != true){
                     int sortChoice = sortMenu();
                     if(sortChoice == 1){
@@ -55,7 +65,9 @@ public class Main {
                         doneSort = true;
                     }
                 }
-            } else if (choice == 4) {
+            }
+            //Fourth Choice
+            else if (choice == 4) {
                 for (Runner runner : RunnersList) {
                     System.out.println(runner);
                 }
@@ -72,33 +84,33 @@ public class Main {
                 addRunnerToFile(R);
             }
 
-            //show by certain criteria
+            //Show by certain criteria
             else if (choice == 6) {
                 int ShowChoice = DisplaySubMenu();
 
                 while(ShowChoice != 0) {
 
-                    //show all users using a given name
+                    //Show all users using a given name
                     if(ShowChoice == 1) {
                         System.out.println(findRunner());
                     }
 
-                    //show all users using given game
+                    //Show all users using given game
                     else if (ShowChoice == 2) {
                         System.out.println("What game do you wish to view: ");
                         String searchGame = s.nextLine();
 
                         for (int i = 0; i < RunnersList.size(); i++) {
-                            if (RunnersList.get(i).getGame().indexOf(searchGame) > -1) {
+                            if (RunnersList.get(i).getGame().contains(searchGame)) {
                                 System.out.println(RunnersList.get(i));
                             }
                         }
                     }
 
-                    //show all users who have a world record
+                    //Show all users who have a world record
                     else if(ShowChoice == 3){
                         for (int i = 0; i < RunnersList.size(); i++) {
-                            if (RunnersList.get(i).getHas_World_Record() == true) {
+                            if (RunnersList.get(i).getHas_World_Record()) {
                                 System.out.println(RunnersList.get(i));
                             }
                         }
@@ -108,7 +120,7 @@ public class Main {
                 }
             }
 
-            //counting how many games a player has run
+            //Counting how many games a player has run
             else if (choice == 7) {
                 System.out.println("Please insert the users name you wish to see how many games they've run: ");
                 String playerName = s.nextLine();
@@ -117,7 +129,7 @@ public class Main {
                 System.out.println(output);
             }
 
-            //counting how many people playa certain game
+            //Counting how many people playa certain game
             else if (choice == 8) {
                 System.out.println("Please insert the game name you wish to see how many people run: ");
                 String GameName = s.nextLine();
@@ -126,7 +138,7 @@ public class Main {
                 System.out.println(output);
             }
 
-            //show all runners hascode
+            //Show all runners hashcode
             else if (choice == 9) {
                 for (Runner runner : RunnersList) {
                     System.out.println(runner.getName() + " " +  runner.getGame());
@@ -134,9 +146,9 @@ public class Main {
                 }
             }
 
-            //finding specific entry using hascode
+            //Finding specific entry using hashcode
             else if (choice == 10) {
-                System.out.println("Please enter hascode: ");
+                System.out.println("Please enter hashcode: ");
                 int hashCode = s.nextInt();
 
                 Runner found = FindRunnerUsingHash(hashCode, RunnersList);
@@ -150,7 +162,7 @@ public class Main {
     //Community score changer
     public static String AskChange(Runner r) {
         Scanner s = new Scanner(System.in);
-        double by = (double) 0.0F;
+        double by = 0.0F;
         System.out.println("Would you like to add or take away community score: ");
         String choice = s.nextLine();
         if (choice.equalsIgnoreCase("add")) {
@@ -159,16 +171,15 @@ public class Main {
         } else if (choice.equalsIgnoreCase("take")) {
             System.out.println("How Much: ");
             by = (double) s.nextInt();
-            by *= (double) -1.0F;
+            by *= -1.0F;
         }
 
         r.RatingChange(by);
-        RunnerFileUtilitlies runF = new RunnerFileUtilitlies();
-        runF.updateRunnerRecordInFile("data.txt",", ", r);
+        RunnerFileUtilitlies.updateRunnerRecordInFile("data.txt",", ", r);
         return r.getName() + " now has a rating of " + r.getCommunity_Rating();
     }
 
-    //lets player add a chosen number of runs to player
+    //Lets player add a chosen number of runs to player
     public static String AddNumOfRuns(Runner r) {
         System.out.println("Runner = " + r.getName());
         Scanner s = new Scanner(System.in);
@@ -177,16 +188,15 @@ public class Main {
         System.out.println("Is this run a world record?");
         String e = s.nextLine();
         String wr = s.nextLine();
-        if ((wr.equalsIgnoreCase("yes") || wr.equalsIgnoreCase("y")
-                || wr.equalsIgnoreCase("no") || wr.equalsIgnoreCase("n")) != true)
+        if (!(wr.equalsIgnoreCase("yes") || wr.equalsIgnoreCase("y")
+                || wr.equalsIgnoreCase("no") || wr.equalsIgnoreCase("n")))
                 { throw new IllegalArgumentException("Wrong data format"); }
         r.RunChange(runs, wr);
-        RunnerFileUtilitlies runF = new RunnerFileUtilitlies();
-        runF.updateRunnerRecordInFile("data.txt",", ", r);
+        RunnerFileUtilitlies.updateRunnerRecordInFile("data.txt",", ", r);
         return r.getName() + " now has " + r.getRuns_Amount() + " runs.";
     }
 
-    //shows the user the menu options
+    //Shows the user the menu options
     public static int Menu() {
         Scanner s = new Scanner(System.in);
         int choice = 0;
@@ -221,8 +231,7 @@ public class Main {
     }
 
     public static Runner findRunner(){
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> RunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        List<Runner> RunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
         Scanner s = new Scanner(System.in);
         System.out.println("What runner do you wish to view: ");
         String searchName = s.nextLine();
@@ -237,54 +246,48 @@ public class Main {
     }
 
     public static void addRunnerToFile(Runner r1) {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        r.addRunnerRecordToFile("data.txt",", ", r1);
+        RunnerFileUtilitlies.addRunnerRecordToFile("data.txt",", ", r1);
         sortByGame();
         System.out.println("\n Runner Added & List Sorted by Game \n ");
     }
 
     public static String sortByName() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
         RunnerNameComparator NameCompare = new RunnerNameComparator();
         tempRunnersList.sort(NameCompare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Name \n");
         return "\n Runners List Sorted By Name \n";
     }
     public static String sortByGame() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
         RunnerGameComparator GameCompare = new RunnerGameComparator();
         tempRunnersList.sort(GameCompare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Game \n");
         return "\n Runners List Sorted By Game \n";
     }
     public static String sortByJoin() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
         RunnerJoinComparator Compare = new RunnerJoinComparator();
         tempRunnersList.sort(Compare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Join Date \n");
         return "\n Runners List Sorted By Join Date \n";
     }
     public static String sortByRating() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
         RunnerRatingComparator Compare = new RunnerRatingComparator();
         tempRunnersList.sort(Compare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Rating \n");
         return  "\n Runners List Sorted By Rating \n";
     }
     public static String sortByRuns() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
         RunnerRunsComparator Compare = new RunnerRunsComparator();
         tempRunnersList.sort(Compare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted By Run Number \n");
         return "\n Runners List Sorted By Run Number \n";
     }
