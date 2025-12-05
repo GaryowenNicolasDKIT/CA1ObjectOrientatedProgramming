@@ -346,10 +346,13 @@ public class Main {
 
                 Runner temp=  ListOfPlayers.get(j);
 
+                String a1 = a.getName();
+                String temp1 = temp.getName();
+
                 //test if takes in runner for temp
                 //System.out.println(temp.getName());
 
-                if (a.equals(temp)) {
+                if (a1.equals(temp1)) {
                     //temp to see if this code is running
                     System.out.println("is this running or not");
 
@@ -407,10 +410,15 @@ public class Main {
             for (int j = 0; j < ListOfPlayers.size(); j++) {
 
                 Runner temp=  ListOfPlayers.get(j);
+
+                String a1 = a.getGame();
+                String temp1 = temp.getGame();
+
                 //test if takes in runner for temp
                 //System.out.println(temp.getName());
 
-                if (a.getGame().equals(temp.getGame())) {
+
+                if (a1.hashCode() == temp1.hashCode()) {
                     PlayerCounter++;
                 }
             }
