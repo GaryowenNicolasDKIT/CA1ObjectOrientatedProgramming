@@ -134,6 +134,15 @@ public class Main {
                 }
             }
 
+            //finding specific entry using hascode
+            else if (choice == 10) {
+                System.out.println("Please enter hascode: ");
+                int hashCode = s.nextInt();
+
+                Runner found = FindRunnerUsingHash(hashCode, RunnersList);
+                System.out.println(found);
+            }
+
         }
 
     }
@@ -191,7 +200,8 @@ public class Main {
                 "6 = Diplay specific users\n" +
                 "7 = How many games a player runs\n"+
                 "8 = how many players run a a game\n"+
-                "9 = show hascode for all runners");
+                "9 = show hascode for all runners\n"+
+                "10 = find entry using hashcode");
         choice = s.nextInt();
         return choice;
     }
@@ -370,6 +380,7 @@ public class Main {
 
     }
 
+    //counting how many runners a play a game
     public static String NumOfRunners(String game,List<Runner> ListOfPlayers){
         String output = "";
         int PlayerCounter = 0;
@@ -431,6 +442,26 @@ public class Main {
 
         return output;
     }
+
+    //finding an entry using a hashcode
+    public static Runner FindRunnerUsingHash(int hash, List<Runner> ListOfPlayers){
+        //temp info to let code run
+        Runner a = new Runner("AAAA", "AAAA");
+
+        for (Runner runner : ListOfPlayers) {
+            if(hash == runner.hashCode()){
+                a = runner;
+            }
+        }
+
+        return a;
+    }
 }
+
+//BigBill Deltarune
+//Their Hashcode: 1695699884
+
+//BigBill Deltarune
+//Their Hashcode: -2035032499
 
 
