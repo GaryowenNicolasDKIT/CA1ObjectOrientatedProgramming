@@ -328,7 +328,7 @@ public class Main {
                 //test if takes in runner for temp
                 //System.out.println(temp.getName());
 
-                if (a.equals(temp)) {
+                if (a.hashCode() == temp.hashCode()) {
                     gameCounter++;
                 }
             }
