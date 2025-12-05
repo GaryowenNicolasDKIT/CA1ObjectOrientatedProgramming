@@ -107,6 +107,15 @@ public class Main {
                     ShowChoice = DisplaySubMenu();
                 }
             }
+
+            //counting how many games a player has run
+            else if (choice == 7) {
+                System.out.println("Please insert the users name you wish to see how many games they've played: ");
+                String playerName = s.nextLine();
+                String output = NumOfGamesPlayed(playerName, RunnersList);
+
+                System.out.println(output);
+            }
         }
 
     }
@@ -161,7 +170,8 @@ public class Main {
                 "3 = Sort Players \n" +
                 "4 = Display Players \n" +
                 "5 = Add new Runner\n" +
-                "6 = Diplay specific users");
+                "6 = Diplay specific users\n" +
+                "7 = How many games a player runs");
         choice = s.nextInt();
         return choice;
     }
@@ -262,6 +272,75 @@ public class Main {
 
 
         return choice;
+    }
+
+    //counting how many games a player has run
+    public static String NumOfGamesPlayed(String name, List<Runner> ListOfPlayers){
+
+        String output = "";
+        int gameCounter = 0;
+        boolean UserFound = false;
+        boolean endLoop = false;
+        int counter = 0;
+        //temp info to let code run
+        Runner a = new Runner("AAAA", "AAAA");
+
+        //test to see if list is being taken into function
+        //System.out.println(ListOfPlayers.toString());
+
+        while(!endLoop){
+
+            //test to see if function enters for loop
+            //System.out.println("Entered while loop");
+
+            if(name.equals(ListOfPlayers.get(counter).getName())) {
+
+                //test
+                //System.out.println("If statment worked");
+
+                a = ListOfPlayers.get(counter);
+
+                //test to see if a is being given a value
+                //System.out.println("runner" + a.getName());
+                gameCounter++;
+                UserFound = true;
+                endLoop = true;
+            }
+
+            counter++;
+
+            if(counter == ListOfPlayers.size()){
+                endLoop = true;
+            }
+
+        }
+
+        //testing if chosen user sticks
+        //System.out.println("does chosen user stick \n"+a);
+        //testing if bollean sticks
+        //System.out.println(UserFound);
+
+        if(UserFound){
+            for (int j = 0; j < ListOfPlayers.size(); j++) {
+
+                Runner temp=  ListOfPlayers.get(j);
+
+                //test if takes in runner for temp
+                //System.out.println(temp.getName());
+
+                if (a.equals(temp)) {
+                    gameCounter++;
+                }
+            }
+            output = name + " runs " + gameCounter + " games";
+        }
+
+        else{
+            output = "User not found";
+        }
+
+        return output;
+
     }
 }
 
