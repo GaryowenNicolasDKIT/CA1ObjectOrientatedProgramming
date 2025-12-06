@@ -11,6 +11,7 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 
 
 public class Main {
@@ -18,6 +19,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Random ran = new Random();
+        HashMap<Runner, Integer> RunnerProfileIDs = new HashMap<>();
 
 
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
@@ -26,6 +28,13 @@ public class Main {
         //Main Menu Loop
         for (int choice = Menu(); choice != 0; choice = Menu()) {
             List<Runner> RunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+
+            int ID_Counter = 00001;
+            for (Runner runner : RunnersList) {
+                RunnerProfileIDs.put(runner, ID_Counter);
+                ID_Counter++;
+            }
+
             //First Choice
             if (choice == 1) {
                 //Calls the find function
@@ -146,13 +155,41 @@ public class Main {
                 }
             }
 
-            //Finding specific entry using hashcode
+            //view hashcode of chosen runner
             else if (choice == 10) {
-                System.out.println("Please enter hashcode: ");
-                int hashCode = s.nextInt();
+                System.out.println("Enter runner you wish to see hashcode of: ");
+                String runnerForHash = s.nextLine();
+                findRunnersHash(runnerForHash,  RunnersList);
+            }
 
-                Runner found = FindRunnerUsingHash(hashCode, RunnersList);
-                System.out.println(found);
+            //view total hashmap
+            else if (choice == 11) {
+                System.out.println(RunnerProfileIDs);
+            }
+
+            //find specific users ID
+            else if (choice == 12) {
+                System.out.println("Select Runner: ");
+                String RunnerChoice = s.nextLine();
+
+                for(Runner runner : RunnersList){
+                    if(runner.getName().equals(RunnerChoice)) {
+                        System.out.println(runner);
+                        System.out.println("Their ID: " + RunnerProfileIDs.get(runner));
+                    }
+                }
+            }
+
+            else if (choice == 13) {
+                System.out.println("Select Runner ID: ");
+                int IDchocie = s.nextInt();
+
+                for(Runner runner : RunnersList){
+                    if(RunnerProfileIDs.get(runner).equals(IDchocie)) {
+                        System.out.println(runner);
+                        System.out.println("Their ID: " + RunnerProfileIDs.get(runner));
+                    }
+                }
             }
 
         }
@@ -211,7 +248,10 @@ public class Main {
                 "7 = How many games a player runs\n"+
                 "8 = how many players run a a game\n"+
                 "9 = show hascode for all runners\n"+
-                "10 = find entry using hashcode");
+                "10 = view hashcode of chosen runner\n"+
+                "11 = view Hashmap\n"+
+                "12 = find specific users IDs\n"+
+                "13 = find user using ID");
         choice = s.nextInt();
         return choice;
     }
@@ -459,6 +499,20 @@ public class Main {
 
         return a;
     }
+
+    //finding chosen runners hash
+    public static void findRunnersHash(String name, List<Runner> ListOfPlayers){
+        for (Runner runner : ListOfPlayers) {
+            if(name.equals(runner.getName())){
+                System.out.println(runner);
+                System.out.println("Runners hashcode: " + runner.hashCode());
+            }
+        }
+
+    }
+
+
+
 }
 
 //BigBill Deltarune
