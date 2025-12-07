@@ -240,13 +240,13 @@ public class Main {
                     DuplicateDeleter.add(runner);
                 }
            }
-           */
+
 
            Runner[] TempForRunners = (Runner[]) DuplicateDeleter.toArray();
 
            for(Runner runner : TempForRunners){
                r.updateRunnerRecordInFile("data.txt",", ", runner);
-           }
+           }*/
 
         }
 

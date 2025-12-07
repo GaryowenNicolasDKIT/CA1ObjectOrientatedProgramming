@@ -1,3 +1,5 @@
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
@@ -51,6 +53,17 @@ class MainTest {
 
      */
 
-    
+    @org.junit.jupiter.api.Test
+    public void test7(){
+        Main test = new Main();
+
+        String a = "Josh";
+        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
+        List<Runner> RunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+
+        String expectedResult = "Josh runs 4 games";
+        String Actual = test.NumOfGamesPlayed(a,RunnersList);
+        assertEquals(expectedResult,Actual);
+    }
 
 }
