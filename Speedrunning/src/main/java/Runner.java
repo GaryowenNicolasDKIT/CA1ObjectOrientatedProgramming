@@ -12,7 +12,7 @@ public class Runner {
     private boolean Has_World_Record;
     private LocalDate Join_Date;
     private LocalDateTime LastSubmission;
-
+    final LocalDate siteStart = LocalDate.of(2006, 6, 3);
 
     public Runner(String name, String game, int runs_Amount, double community_Rating, boolean has_world_Record, LocalDate join_date, LocalDateTime last_submission) {
         Name = name;
@@ -114,7 +114,13 @@ public class Runner {
     }
 
     public void setJoinDate(LocalDate joinDate) {
-        Join_Date = joinDate;
+        if(joinDate.isBefore(siteStart)){
+            throw new IllegalArgumentException("Wrong Date: Cannot Join Prior to Site's Start Date\nChange Not Saved");
+        }
+        else{
+            Join_Date = joinDate;
+        }
+
     }
 
 
@@ -126,7 +132,15 @@ public class Runner {
         return Duration.between(LastSubmission, LocalDateTime.now());
     }
 
-    public void setLastSubmission(LocalDateTime lastSubmission) { LastSubmission = lastSubmission; }
+    public void setLastSubmission(LocalDateTime lastSubmission) {
+        if(lastSubmission.isBefore(Join_Date.atStartOfDay())){
+            throw new IllegalArgumentException("Wrong Date: Cannot Join Prior to Site's Start Date\nChange Not Saved");
+        }
+        else{
+            LastSubmission = lastSubmission;
+        }
+
+    }
 
     @Override
     public String toString() {

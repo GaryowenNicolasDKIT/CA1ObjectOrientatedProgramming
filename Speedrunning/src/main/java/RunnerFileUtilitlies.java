@@ -57,9 +57,6 @@ public class RunnerFileUtilitlies {
     }
 
     public static void addRunnerRecordToFile(String fileName, String deLimiter, Runner runner) {
-        ArrayList<Runner> runnerList = new ArrayList<>();
-
-
         try (FileWriter fileWriter = new FileWriter(fileName, true);
              BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
 
@@ -72,6 +69,26 @@ public class RunnerFileUtilitlies {
             e.printStackTrace();
         }
     }
+
+    public static void makeResultsFile(String fileName, String deLimiter, List<Runner> runners) {
+        File file =  new File(fileName);
+        for (Runner runner : runners) {
+            try (FileWriter fileWriter = new FileWriter(file, true);
+                 BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
+
+                fileWriter.write(("\n" + runner.getName() + deLimiter + runner.getGame()
+                        + deLimiter + runner.getRuns_Amount() + deLimiter +
+                        runner.getCommunity_Rating() + deLimiter + runner.getHas_World_Record()
+                        + deLimiter + runner.getJoinDate().toString() + deLimiter + runner.getLastSubmission().toString()));
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+
     public static void replaceRunnerRecordFile(String fileName, String deLimiter, List<Runner> runnerList) {
 
         try (FileWriter fileWriter = new FileWriter(fileName);

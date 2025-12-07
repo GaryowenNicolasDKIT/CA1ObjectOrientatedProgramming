@@ -6,21 +6,18 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
+import java.time.LocalDate;
+import java.util.*;
 
 
 public class Main {
     Scanner s = new Scanner(System.in);
+
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Random ran = new Random();
         HashMap<Runner, Integer> RunnerProfileIDs = new HashMap<>();
-
+        final LocalDate siteStart = LocalDate.of(2006, 6, 3);
 
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
 
@@ -56,19 +53,19 @@ public class Main {
                 while (doneSort != true){
                     int sortChoice = sortMenu();
                     if(sortChoice == 1){
-                        sortByName();
+                        sortBy(new RunnerNameComparator());
                     }
                     else if (sortChoice == 2){
-                        sortByGame();
+                        sortBy(new RunnerGameComparator());
                     }
                     else if (sortChoice == 3){
-                        sortByRuns();
+                        sortBy(new RunnerRunsComparator());
                     }
                     if(sortChoice == 4){
-                        sortByRating();
+                        sortBy(new RunnerRatingComparator());
                     }
                     else if (sortChoice == 5){
-                        sortByJoin();
+                        sortBy(new RunnerJoinComparator());
                     }
                     else{
                         doneSort = true;
@@ -191,7 +188,24 @@ public class Main {
                     }
                 }
             }
-
+            else if (choice == 14){
+                System.out.println("Select Date you Wish to Compare");
+                System.out.println("(In the format DAY-MONTH-YEAR please)");
+                String dateInput = s.nextLine();
+                System.out.println("Find Runners made after or before this date?");
+                String decision = s.nextLine();
+                String[] dateSplit = dateInput.split("-");
+                LocalDate date = LocalDate.of(Integer.parseInt(dateSplit[2]), Integer.parseInt(dateSplit[1]), Integer.parseInt(dateSplit[0]));
+                if (decision.equalsIgnoreCase("before")){
+                    RunnerFileUtilitlies.makeResultsFile("RunnersBefore"+date,", ",findBetween(siteStart,date,RunnersList));
+                }
+                else if (decision.equalsIgnoreCase("after")){
+                    RunnerFileUtilitlies.makeResultsFile("RunnersAfter" + date,", ",findBetween(date,LocalDate.now(),RunnersList));
+                }
+                else{
+                    System.out.println("ERROR. PLEASE INPUT BEFORE OR AFTER");
+                }
+            }
         }
 
     }
@@ -244,14 +258,15 @@ public class Main {
                 "3 = Sort Players \n" +
                 "4 = Display Players \n" +
                 "5 = Add new Runner\n" +
-                "6 = Diplay specific users\n" +
+                "6 = Display specific users\n" +
                 "7 = How many games a player runs\n"+
                 "8 = how many players run a a game\n"+
-                "9 = show hascode for all runners\n"+
-                "10 = view hashcode of chosen runner\n"+
-                "11 = view Hashmap\n"+
-                "12 = find specific users IDs\n"+
-                "13 = find user using ID");
+                "9 = Show hashcode for all runners\n"+
+                "10 = View hashcode of chosen runner\n"+
+                "11 = View Hashmap\n"+
+                "12 = Find specific users IDs\n"+
+                "13 = Find user using ID\n" +
+                "14 = Find users within a date");
         choice = s.nextInt();
         return choice;
     }
@@ -287,50 +302,20 @@ public class Main {
 
     public static void addRunnerToFile(Runner r1) {
         RunnerFileUtilitlies.addRunnerRecordToFile("data.txt",", ", r1);
-        sortByGame();
+        sortBy(new RunnerGameComparator());
         System.out.println("\n Runner Added & List Sorted by Game \n ");
     }
 
-    public static String sortByName() {
+
+    public static String sortBy(Comparator<Runner> c) {
         List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerNameComparator NameCompare = new RunnerNameComparator();
-        tempRunnersList.sort(NameCompare);
+        tempRunnersList.sort(c);
         RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Name \n");
-        return "\n Runners List Sorted By Name \n";
-    }
-    public static String sortByGame() {
-        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerGameComparator GameCompare = new RunnerGameComparator();
-        tempRunnersList.sort(GameCompare);
-        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Game \n");
-        return "\n Runners List Sorted By Game \n";
-    }
-    public static String sortByJoin() {
-        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerJoinComparator Compare = new RunnerJoinComparator();
-        tempRunnersList.sort(Compare);
-        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Join Date \n");
-        return "\n Runners List Sorted By Join Date \n";
-    }
-    public static String sortByRating() {
-        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerRatingComparator Compare = new RunnerRatingComparator();
-        tempRunnersList.sort(Compare);
-        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Rating \n");
-        return  "\n Runners List Sorted By Rating \n";
-    }
-    public static String sortByRuns() {
-        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerRunsComparator Compare = new RunnerRunsComparator();
-        tempRunnersList.sort(Compare);
-        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Run Number \n");
+        System.out.println("\n Runners List Sorted \n");
         return "\n Runners List Sorted By Run Number \n";
     }
+
+
 
     public static int DisplaySubMenu(){
         Scanner s = new Scanner(System.in);
@@ -511,6 +496,16 @@ public class Main {
 
     }
 
+
+    public static List<Runner> findBetween (LocalDate lower, LocalDate upper, List<Runner> runners){
+        List<Runner> finalRunnerList = new ArrayList<>();
+        for (Runner runner : runners){
+            if(runner.getJoinDate().isAfter(lower) && runner.getJoinDate().isBefore(upper)){
+                finalRunnerList.add(runner);
+            }
+        }
+        return finalRunnerList;
+    }
 
 
 }
