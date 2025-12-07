@@ -155,15 +155,17 @@ public class Runner {
                 + this.Community_Rating +  delimiter + this.Has_World_Record + delimiter + this.Join_Date + delimiter + this.LastSubmission;
     }
 
-    public boolean equals(Runner otherObject){
-        if(otherObject == null){ return false;}
-        else if(getClass() != otherObject.getClass()){ return false;}
+    @Override
+    public boolean equals(Object otherObject){
+        if (this == otherObject){ return true;}
+        if (otherObject == null || getClass() != otherObject.getClass()) return false;
+
         Runner other = (Runner) otherObject;
 
-        return Name.equals(other.Name)
-                && Runs_Amount == other.Runs_Amount
-                && Community_Rating == other.Community_Rating
-                && Join_Date.equals(other.Join_Date);
+        return Runs_Amount == other.Runs_Amount
+                && Double.compare(other.Community_Rating, Community_Rating) == 0
+                && Objects.equals(Name, other.Name)
+                && Objects.equals(Join_Date, other.Join_Date);
     }
 
     public double RatingChange (double change){

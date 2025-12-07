@@ -22,12 +22,10 @@ public class Main {
         Set<String> GameNames = new HashSet<>();
         Set<Runner> DuplicateDeleter = new HashSet<>();
 
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-
 
         //Main Menu Loop
         for (int choice = Menu(); choice != 0; choice = Menu()) {
-            List<Runner> RunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+            List<Runner> RunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
 
             int ID_Counter = 00001;
             for (Runner runner : RunnersList) {
@@ -61,22 +59,22 @@ public class Main {
             else if (choice == 3) {
                 boolean doneSort = false;
                 //Sub-menu
-                while (doneSort != true){
+                while (!doneSort){
                     int sortChoice = sortMenu();
                     if(sortChoice == 1){
-                        sortBy(new RunnerNameComparator());
+                        sortBy("data.txt",new RunnerNameComparator());
                     }
                     else if (sortChoice == 2){
-                        sortBy(new RunnerGameComparator());
+                        sortBy("data.txt",new RunnerGameComparator());
                     }
                     else if (sortChoice == 3){
-                        sortBy(new RunnerRunsComparator());
+                        sortBy("data.txt",new RunnerRunsComparator());
                     }
                     if(sortChoice == 4){
-                        sortBy(new RunnerRatingComparator());
+                        sortBy("data.txt",new RunnerRatingComparator());
                     }
                     else if (sortChoice == 5){
-                        sortBy(new RunnerJoinComparator());
+                        sortBy("data.txt",new RunnerJoinComparator());
                     }
                     else{
                         doneSort = true;
@@ -117,9 +115,9 @@ public class Main {
                         System.out.println("What game do you wish to view: ");
                         String searchGame = s.nextLine();
 
-                        for (int i = 0; i < RunnersList.size(); i++) {
-                            if (RunnersList.get(i).getGame().contains(searchGame)) {
-                                System.out.println(RunnersList.get(i));
+                        for (Runner runner : RunnersList) {
+                            if (runner.getGame().contains(searchGame)) {
+                                System.out.println(runner);
                             }
                         }
                     }
@@ -190,10 +188,10 @@ public class Main {
 
             else if (choice == 13) {
                 System.out.println("Select Runner ID: ");
-                int IDchocie = s.nextInt();
+                int IDChoice = s.nextInt();
 
                 for(Runner runner : RunnersList){
-                    if(RunnerProfileIDs.get(runner).equals(IDchocie)) {
+                    if(RunnerProfileIDs.get(runner).equals(IDChoice)) {
                         System.out.println(runner);
                         System.out.println("Their ID: " + RunnerProfileIDs.get(runner));
                     }
@@ -371,17 +369,17 @@ public class Main {
 
     public static void addRunnerToFile(Runner r1) {
         RunnerFileUtilitlies.addRunnerRecordToFile("data.txt",", ", r1);
-        sortBy(new RunnerGameComparator());
+        sortBy("data.txt",new RunnerGameComparator());
         System.out.println("\n Runner Added & List Sorted by Game \n ");
     }
 
 
-    public static String sortBy(Comparator<Runner> c) {
-        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
+    public static List<Runner> sortBy(String fileName, Comparator<Runner> c) {
+        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile(fileName,", ");
         tempRunnersList.sort(c);
-        RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
+        RunnerFileUtilitlies.replaceRunnerRecordFile(fileName,", ", tempRunnersList);
         System.out.println("\n Runners List Sorted \n");
-        return "\n Runners List Sorted By Run Number \n";
+        return tempRunnersList;
     }
 
     public static List<Runner> topNumberIn(int number, String game, boolean byGame, String SortBy){
@@ -426,11 +424,7 @@ public class Main {
                            "2: Game\n" +
                            "3: who has a world record\n" +
                            "4: return back to main menu");
-
-        int choice = s.nextInt();
-
-
-        return choice;
+        return s.nextInt();
     }
 
     //counting how many games a player has run
@@ -455,7 +449,7 @@ public class Main {
             if(name.equals(ListOfPlayers.get(counter).getName())) {
 
                 //test
-                //System.out.println("If statment worked");
+                //System.out.println("If statement worked");
 
                 a = ListOfPlayers.get(counter);
 
