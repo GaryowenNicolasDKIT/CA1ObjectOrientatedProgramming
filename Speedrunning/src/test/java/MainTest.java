@@ -126,7 +126,6 @@ class MainTest {
         String expectedResult = "1 and 4 are duplicates\n" +
                 "4 and 1 are duplicates\n";
         String Actual = test.DuplicateFinder(b);
-        System.out.println(Actual);
         assertEquals(expectedResult,Actual);
     }
 
