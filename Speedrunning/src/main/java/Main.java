@@ -18,6 +18,8 @@ public class Main {
         Random ran = new Random();
         HashMap<Runner, Integer> RunnerProfileIDs = new HashMap<>();
         final LocalDate siteStart = LocalDate.of(2006, 6, 3);
+        Set<String> RunnerNames = new HashSet<>();
+        Set<String> GameNames = new HashSet<>();
 
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
 
@@ -30,6 +32,14 @@ public class Main {
             for (Runner runner : RunnersList) {
                 RunnerProfileIDs.put(runner, ID_Counter);
                 ID_Counter++;
+            }
+
+            for (Runner runner : RunnersList) {
+                RunnerNames.add(runner.getName());
+            }
+
+            for (Runner runner : RunnersList) {
+                GameNames.add(runner.getGame());
             }
 
             //First Choice
@@ -206,6 +216,21 @@ public class Main {
                     System.out.println("ERROR. PLEASE INPUT BEFORE OR AFTER");
                 }
             }
+
+            //view all runners
+            else if (choice == 15) {
+                for(String name: RunnerNames){
+                        System.out.println(name);
+                }
+            }
+
+            else if (choice == 16) {
+                for(String game: GameNames){
+                    System.out.println(game);
+                }
+            }
+
+
         }
 
     }
@@ -266,7 +291,9 @@ public class Main {
                 "11 = View Hashmap\n"+
                 "12 = Find specific users IDs\n"+
                 "13 = Find user using ID\n" +
-                "14 = Find users within a date");
+                "14 = Find users within a date\n"+
+                "15 = view all runners\n"+
+                "16 = view all games being ran");
         choice = s.nextInt();
         return choice;
     }
