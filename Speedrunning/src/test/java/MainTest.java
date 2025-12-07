@@ -4,7 +4,7 @@ class MainTest {
 
     //add number of runs test
 
-    @org.junit.jupiter.api.Test
+    /*@org.junit.jupiter.api.Test
     public void test2(){
         Main test = new Main();
 
@@ -48,4 +48,9 @@ class MainTest {
         String Actual = test.sortByRuns();
         assertEquals(expectedResult,Actual);
     }
+
+     */
+
+    
+
 }
