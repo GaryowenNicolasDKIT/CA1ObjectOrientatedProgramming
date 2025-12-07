@@ -20,6 +20,7 @@ public class Main {
         final LocalDate siteStart = LocalDate.of(2006, 6, 3);
         Set<String> RunnerNames = new HashSet<>();
         Set<String> GameNames = new HashSet<>();
+        Set<Runner> DuplicateDeleter = new HashSet<>();
 
         RunnerFileUtilitlies r = new RunnerFileUtilitlies();
 
@@ -230,6 +231,22 @@ public class Main {
                 }
             }
 
+            //delete duplicates
+            /*
+           else if (choice == 17) {
+
+               //work in progress code
+                for(Runner runner : RunnersList){
+                    DuplicateDeleter.add(runner);
+                }
+           }
+           */
+
+           Runner[] TempForRunners = (Runner[]) DuplicateDeleter.toArray();
+
+           for(Runner runner : TempForRunners){
+               r.updateRunnerRecordInFile("data.txt",", ", runner);
+           }
 
         }
 
@@ -293,7 +310,8 @@ public class Main {
                 "13 = Find user using ID\n" +
                 "14 = Find users within a date\n"+
                 "15 = view all runners\n"+
-                "16 = view all games being ran");
+                "16 = view all games being ran\n"+
+                "17 = delete duplicates");
         choice = s.nextInt();
         return choice;
     }
