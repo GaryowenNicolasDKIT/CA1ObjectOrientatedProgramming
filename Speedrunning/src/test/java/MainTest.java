@@ -18,14 +18,14 @@ class MainTest {
         List<Runner> expectedResult = new ArrayList<>();
         List<Runner> actualResult = new ArrayList<>();
         //Creating of 8 Runners
-        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.now(), LocalDateTime.now());
-        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.now(), LocalDateTime.now());
-        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.now(), LocalDateTime.now());
-        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.now(), LocalDateTime.now());
-        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.now(), LocalDateTime.now());
-        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.now(), LocalDateTime.now());
-        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.now(), LocalDateTime.now());
-        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.now(), LocalDateTime.now());
+        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.of(2016,12,5), LocalDateTime.now());
+        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.of(2012,6,20), LocalDateTime.now());
+        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.of(2019,10,30), LocalDateTime.now());
+        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.of(2014,7,23), LocalDateTime.now());
+        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.of(2016,11,4), LocalDateTime.now());
+        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.of(2012,3,20), LocalDateTime.now());
+        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.of(2019,9,5), LocalDateTime.now());
+        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.of(2014,6,12), LocalDateTime.now());
 
         //Adding them in a randomised order to an ArrayList
         actualResult.add(r1);
@@ -63,14 +63,14 @@ class MainTest {
         List<Runner> expectedResult = new ArrayList<>();
         List<Runner> actualResult = new ArrayList<>();
         //Creating of 8 Runners
-        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.now(), LocalDateTime.now());
-        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.now(), LocalDateTime.now());
-        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.now(), LocalDateTime.now());
-        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.now(), LocalDateTime.now());
-        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.now(), LocalDateTime.now());
-        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.now(), LocalDateTime.now());
-        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.now(), LocalDateTime.now());
-        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.now(), LocalDateTime.now());
+        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.of(2016,12,5), LocalDateTime.now());
+        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.of(2012,6,20), LocalDateTime.now());
+        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.of(2019,10,30), LocalDateTime.now());
+        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.of(2014,7,23), LocalDateTime.now());
+        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.of(2016,11,4), LocalDateTime.now());
+        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.of(2012,3,20), LocalDateTime.now());
+        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.of(2019,9,5), LocalDateTime.now());
+        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.of(2014,6,12), LocalDateTime.now());
 
         //Adding them in a randomised order to an ArrayList
         actualResult.add(r1);
@@ -153,14 +153,15 @@ class MainTest {
         List<Runner> expectedResult = new ArrayList<>();
         List<Runner> actualResult = new ArrayList<>();
         //Creating of 8 Runners
-        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.now(), LocalDateTime.now());
-        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.now(), LocalDateTime.now());
-        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.now(), LocalDateTime.now());
-        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.now(), LocalDateTime.now());
-        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.now(), LocalDateTime.now());
-        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.now(), LocalDateTime.now());
-        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.now(), LocalDateTime.now());
-        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.now(), LocalDateTime.now());
+
+        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.of(2016,12,5), LocalDateTime.now());
+        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.of(2012,6,20), LocalDateTime.now());
+        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.of(2019,10,30), LocalDateTime.now());
+        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.of(2014,7,23), LocalDateTime.now());
+        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.of(2016,11,4), LocalDateTime.now());
+        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.of(2012,3,20), LocalDateTime.now());
+        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.of(2019,9,5), LocalDateTime.now());
+        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.of(2014,6,12), LocalDateTime.now());
 
         //Adding them in a randomised order to an ArrayList
         actualResult.add(r1);
@@ -198,14 +199,14 @@ class MainTest {
         List<Runner> expectedResult = new ArrayList<>();
         List<Runner> actualResult = new ArrayList<>();
         //Creating of 8 Runners
-        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.now(), LocalDateTime.now());
-        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.now(), LocalDateTime.now());
-        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.now(), LocalDateTime.now());
-        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.now(), LocalDateTime.now());
-        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.now(), LocalDateTime.now());
-        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.now(), LocalDateTime.now());
-        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.now(), LocalDateTime.now());
-        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.now(), LocalDateTime.now());
+        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.of(2016,12,5), LocalDateTime.now());
+        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.of(2012,6,20), LocalDateTime.now());
+        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.of(2019,10,30), LocalDateTime.now());
+        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.of(2014,7,23), LocalDateTime.now());
+        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.of(2016,11,4), LocalDateTime.now());
+        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.of(2012,3,20), LocalDateTime.now());
+        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.of(2019,9,5), LocalDateTime.now());
+        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.of(2014,6,12), LocalDateTime.now());
 
         //Adding them in a randomised order to an ArrayList
         actualResult.add(r1);
@@ -237,11 +238,87 @@ class MainTest {
         assertEquals(expectedResult,Actual);
     }
 
+    @org.junit.jupiter.api.Test
+    public void sortBetweenPastNow(){
+        Main test = new Main();
 
+        List<Runner> expectedResult = new ArrayList<>();
+        List<Runner> actualResult = new ArrayList<>();
+        //Creating of 8 Runners
+        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.of(2016,12,5), LocalDateTime.now());
+        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.of(2012,6,20), LocalDateTime.now());
+        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.of(2019,10,30), LocalDateTime.now());
+        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.of(2014,7,23), LocalDateTime.now());
+        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.of(2016,11,4), LocalDateTime.now());
+        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.of(2012,3,20), LocalDateTime.now());
+        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.of(2019,9,5), LocalDateTime.now());
+        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.of(2014,6,12), LocalDateTime.now());
+
+        //Adding them in a randomised order to an ArrayList
+        actualResult.add(r1);
+        actualResult.add(r3);
+        actualResult.add(r5);
+        actualResult.add(r7);
+
+        //Adding them to a different ArrayList in the correct order
+        expectedResult.add(r1);
+        expectedResult.add(r2);
+        expectedResult.add(r4);
+        expectedResult.add(r3);
+        expectedResult.add(r7);
+        expectedResult.add(r8);
+        expectedResult.add(r5);
+        expectedResult.add(r6);
+
+        //Running the sorting code to update the file to hold everything in the right order
+        List<Runner> Actual = Main.findBetween(LocalDate.of(2016,3,19),LocalDate.now(),actualResult);
+
+        //Comparing the organised list to the outputted list of the sorting code
+        assertEquals(expectedResult,Actual);
+    }
+
+    @org.junit.jupiter.api.Test
+    public void sortBetweenStartPast(){
+        Main test = new Main();
+
+        List<Runner> expectedResult = new ArrayList<>();
+        List<Runner> actualResult = new ArrayList<>();
+        //Creating of 8 Runners
+        Runner r1 = new Runner("Aaron","Luigi's Mansion",10,-42.4,false, LocalDate.of(2016,12,5), LocalDateTime.now());
+        Runner r2 = new Runner("Baron","Deltarune",46,62.5,true, LocalDate.of(2012,6,20), LocalDateTime.now());
+        Runner r3 = new Runner("Daron","Deltarune",79,446.2,false, LocalDate.of(2019,10,30), LocalDateTime.now());
+        Runner r4 = new Runner("Carlon","FNAF SB",56,1029.0,true, LocalDate.of(2014,7,23), LocalDateTime.now());
+        Runner r5 = new Runner("Aarrron","Luigi's Mansion",4460,-1.8,true, LocalDate.of(2016,11,4), LocalDateTime.now());
+        Runner r6 = new Runner("Caron","FNAF SB",9986,67.6,false, LocalDate.of(2012,3,20), LocalDateTime.now());
+        Runner r7 = new Runner("Barton","Minecraft",125,42021.2,false, LocalDate.of(2019,9,5), LocalDateTime.now());
+        Runner r8 = new Runner("Darlon","Minecraft",3355,6942.0,true, LocalDate.of(2014,6,12), LocalDateTime.now());
+
+        //Adding them in a randomised order to an ArrayList
+        actualResult.add(r2);
+        actualResult.add(r4);
+        actualResult.add(r6);
+        actualResult.add(r8);
+
+        //Adding them to a different ArrayList in the correct order
+        expectedResult.add(r1);
+        expectedResult.add(r2);
+        expectedResult.add(r4);
+        expectedResult.add(r3);
+        expectedResult.add(r7);
+        expectedResult.add(r8);
+        expectedResult.add(r5);
+        expectedResult.add(r6);
+
+        //Running the sorting code to update the file to hold everything in the right order
+        List<Runner> Actual = Main.findBetween(LocalDate.of(2006,6,3),LocalDate.of(2016,3,21),actualResult);
+
+        //Comparing the organised list to the outputted list of the sorting code
+        assertEquals(expectedResult,Actual);
+    }
 
     //testing counting how many games a player runs
     @org.junit.jupiter.api.Test
-    public void test7(){
+    public void testGamesPlayed(){
         Main test = new Main();
 
         String a = "Josh";
@@ -262,7 +339,7 @@ class MainTest {
 
     //testing counting how many games a player runs
     @org.junit.jupiter.api.Test
-    public void test8(){
+    public void testNoUser(){
         Main test = new Main();
 
         String a = "Simmon";
@@ -284,7 +361,7 @@ class MainTest {
 
     //testing find duplicates
     @org.junit.jupiter.api.Test
-    public void test9(){
+    public void testFindDuplicates(){
         Main test = new Main();
 
         String a = "Simmon";

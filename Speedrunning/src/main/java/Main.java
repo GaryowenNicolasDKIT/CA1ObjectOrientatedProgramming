@@ -593,9 +593,12 @@ public class Main {
 
 
     public static List<Runner> findBetween (LocalDate lower, LocalDate upper, List<Runner> runners){
+        //List of runners that fit the criteria
         List<Runner> finalRunnerList = new ArrayList<>();
         for (Runner runner : runners){
+            //Checks if the join date falls between the bounds
             if(runner.getJoinDate().isAfter(lower) && runner.getJoinDate().isBefore(upper)){
+                //If falls between, added to final list
                 finalRunnerList.add(runner);
             }
         }
