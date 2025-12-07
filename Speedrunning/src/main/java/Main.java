@@ -231,6 +231,8 @@ public class Main {
                 }
             }
 
+
+
             //delete duplicates
             /*
            else if (choice == 17) {
@@ -247,9 +249,23 @@ public class Main {
            for(Runner runner : TempForRunners){
                r.updateRunnerRecordInFile("data.txt",", ", runner);
            }*/
-
+            else if (choice == 18){
+                System.out.println("Please input the number of runners you wish to see");
+                int Number = s.nextInt();
+                System.out.println("Would you like to see the top " + Number + " by rating, or by their run number?");
+                String topBy = s.nextLine();
+                System.out.println("In general or for a specific game? If the former, please input NA");
+                String byGame = s.nextLine();
+                if(Number > 0 && (topBy.equalsIgnoreCase("Rating") || topBy.equalsIgnoreCase("Runs"))) {
+                    List<Runner> listToPrint = topNumberIn(Number,byGame, !byGame.equalsIgnoreCase("na"),topBy);
+                    int count = 0;
+                    for(Runner runner : listToPrint){
+                        count++;
+                        System.out.println(count + ": " + runner.toString());
+                    }
+                }
+            }
         }
-
     }
 
     //Community score changer
@@ -309,9 +325,10 @@ public class Main {
                 "12 = Find specific users IDs\n"+
                 "13 = Find user using ID\n" +
                 "14 = Find users within a date\n"+
-                "15 = view all runners\n"+
-                "16 = view all games being ran\n"+
-                "17 = delete duplicates");
+                "15 = View all runners\n"+
+                "16 = View all games being ran\n"+
+                "17 = Delete duplicates\n" +
+                "18 = Show Top Runners (By Rating)");
         choice = s.nextInt();
         return choice;
     }
@@ -358,6 +375,38 @@ public class Main {
         RunnerFileUtilitlies.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
         System.out.println("\n Runners List Sorted \n");
         return "\n Runners List Sorted By Run Number \n";
+    }
+
+    public static List<Runner> topNumberIn(int number, String game, boolean byGame, String SortBy){
+        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
+        if(SortBy.equalsIgnoreCase("runs")){
+            tempRunnersList.sort(new RunnerRunsComparator());
+        }
+        else{
+            tempRunnersList.sort(new RunnerRatingComparator());
+        }
+        List<Runner> finalRunnersList = new ArrayList<>();
+        int count = 0;
+        if(byGame){
+            for (int i = 0; i < tempRunnersList.size(); i++) {
+                if (tempRunnersList.get(i).getGame().equals(game) && count != number) {
+                    finalRunnersList.add(tempRunnersList.get(i));
+                    count++;
+                }
+            }
+        }
+        else{
+            for (int i = 0; i < tempRunnersList.size(); i++) {
+                if(count!= number){
+                    finalRunnersList.add(tempRunnersList.get(i));
+                    count++;
+                }
+            }
+        }
+        if(count != 5){
+            System.out.println("ERROR!\nLess than 5 runners fit criteria. Displaying top " + count);
+        }
+        return finalRunnersList;
     }
 
 
