@@ -265,6 +265,12 @@ public class Main {
                     }
                 }
             }
+
+            //finding duplicates using hashmap
+            else if(choice == 19){
+                String duplicateFinder = DuplicateFinder(RunnerProfileIDs);
+                System.out.println(duplicateFinder);
+            }
         }
     }
 
@@ -328,7 +334,8 @@ public class Main {
                 "15 = View all runners\n"+
                 "16 = View all games being ran\n"+
                 "17 = Delete duplicates\n" +
-                "18 = Show Top Runners (By Rating)");
+                "18 = Show Top Runners (By Rating)\n"+
+                "19 = is there duplicates");
         choice = s.nextInt();
         return choice;
     }
@@ -601,6 +608,22 @@ public class Main {
         return finalRunnerList;
     }
 
+    //looking for duplicates
+    public static String DuplicateFinder(HashMap<Runner, Integer> RunnerProfileIDs){
+        String output = "";
+
+        for (Runner runner : RunnerProfileIDs.keySet()){
+            Runner temp = runner;
+
+            for(Runner runner2 : RunnerProfileIDs.keySet()){
+                if(runner.equals(runner2) && RunnerProfileIDs.get(runner2) != RunnerProfileIDs.get(runner)){
+                    output = (output + (RunnerProfileIDs.get(runner) + " and " +  RunnerProfileIDs.get(runner2) + " are duplicates") + "\n");
+                }
+            }
+        }
+
+        return output;
+    }
 
 }
 
