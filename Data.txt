@@ -1,12 +1,1003 @@
-BigBill, Deltarune, 0, 0.0, false, 2025-11-16, 2025-11-16T16:52:23.099189600
-Matthew, FNAF SB, 234, 244.3, true, 2025-11-16, 2025-11-16T16:52:23.100206400
-Josh, Halo 2, 26, 35.3, true, 2025-11-16, 2025-11-16T16:52:23.100206400
-Sarah, Halo CE, 12, 22.3, true, 2025-11-16, 2025-11-16T16:52:23.100206400
-Fungus, Mario, 0, 0.0, false, 2025-11-16, 2025-11-16T16:52:23.099189600
-John, Mario, 1, 0.01, false, 2025-11-16, 2025-11-16T16:52:23.099189600
-John, Mario, 1, 0.01, false, 2025-11-16, 2025-11-16T16:52:23.100206400
-Jack, New Super Mario Bros, 5, 25.4, false, 2025-11-16, 2025-11-16T16:52:23.099189600
-PlinkoPaul, Peggle, 4, 100000.0, false, 2025-11-16, 2025-11-16T16:52:23.100206400
-bob, Powerwash Simulator, 0, 0.0, false, 2025-11-16, 2025-11-16T16:52:23.100206400
-PoopooFace, Spiderman, 0, 0.0, false, 2025-11-16, 2025-11-16T16:52:23.100206400
-Sarah, Spiderman, 12, 15.6, true, 2025-11-16, 2025-11-16T16:52:23.100206400
+BigBill, Deltarune, 0, 0.0, false, 2025-12-03, 2025-12-03T10:29:23.754527
+Fungus, Mario, 0, 0.0, false, 2025-12-03, 2025-12-03T10:29:23.754527
+Jack, New Super Mario Bros, 5, 25.4, false, 2025-12-03, 2025-12-03T10:29:23.754527
+John, Mario, 1, 0.01, false, 2025-12-03, 2025-12-03T10:29:23.754527
+John, Mario, 1, 0.01, false, 2025-12-03, 2025-12-03T10:29:23.754527
+Josh, Halo 2, 26, 35.3, true, 2025-12-03, 2025-12-03T10:29:23.754527
+Matthew, FNAF SB, 234, 244.3, true, 2025-12-03, 2025-12-03T10:29:23.754527
+PlinkoPaul, Peggle, 4, 100000.0, false, 2025-12-03, 2025-12-03T10:29:23.754527
+PoopooFace, Spiderman, 0, 0.0, false, 2025-12-03, 2025-12-03T10:29:23.754527
+Sarah, Halo CE, 12, 22.3, true, 2025-12-03, 2025-12-03T10:29:23.754527
+Josh, Halo CE, 32, 44.3, false, 2025-12-03, 2025-12-03T10:29:23.754527
+Sarah, Spiderman, 12, 15.6, true, 2025-12-03, 2025-12-03T10:29:23.754527
+aalbury7p, Super Meat Boy, 108, 49030.8, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+John, Mario & Luigi BIS (DS), 271, 83375.1, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+aasbrey85, Half-Life, 141, 18684.0, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+abanthorpeje, Dark Souls, 294, 40290.2, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+Josh, Bloodborne, 264, 85419.3, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+abasindalefa, Half-Life Alyx, 73, 29723.3, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+abeagrie6o, Super Meat Boy, 261, 57290.8, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+abeaumani5, The Legend of Zelda Ocarina of Time, 9, 42607.8, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+abirkinmd, Half-Life Alyx, 220, 25352.9, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+abooeln64, Bloodborne, 139, 52912.8, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+aborleacen9, Bloodborne, 180, 19723.3, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+abretellekc, Hollow Knight, 66, 55416.0, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+abruntjen3o, Minecraft, 259, 52406.4, true, 2025-12-03, 2025-12-03T10:29:23.758528
+abuckland10, Portal, 203, 75648.9, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+Josh, Hollow Knight, 240, 52645.1, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+abulpittk7, The Legend of Zelda Ocarina of Time, 193, 17809.9, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+abutterley72, Minecraft, 87, 85494.4, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+acardon5g, Half-Life 2, 209, 63892.6, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+acoalbranpo, Hollow Knight, 25, 51377.6, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+acord4, Celeste, 56, 98598.4, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+acrinkleyhc, Bananarang The Scattered Shards, 251, 13245.2, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+acrowchg0, FNAF SB, 270, 86421.1, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+adaniaudf, Dark Souls, 10, 64898.2, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+adanielsky8u, New Super Mario Brothers, 183, 95493.3, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+adanjoie6s, Bloodborne, 133, 28441.1, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+adarcey76, Half-Life Alyx, 162, 23008.0, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+adelves37, Celeste, 136, 64844.3, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+aderrington4v, The Legend of Zelda Ocarina of Time, 123, 44916.7, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+adundridgecc, Cuphead, 6, 56510.7, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+aeichelerr6, Super Mario Bros., 51, 51032.4, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+afeldmannd8, The Legend of Zelda Ocarina of Time, 257, 47289.6, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+aferrih2, Half-Life Alyx, 193, 41702.1, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+afundellfq, The Legend of Zelda Ocarina of Time, 47, 51657.9, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+agartsidedg, Animal Crossing New Leaf, 168, 58517.8, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+agelliercb, Super Mario Bros., 88, 85942.2, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+agerritsma5f, Dark Souls, 68, 71119.9, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+agiacobillong, SpongeBob SquarePants Battle for Bikini Bottom, 65, 72597.8, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+agoodersonqu, Portal 2, 99, 93940.4, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+agoodger19, SpongeBob SquarePants Battle for Bikini Bottom, 15, 19589.5, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+agreiseraa, Super Mario Bros., 10, 14586.3, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+ahamesg4, FNAF SB, 207, 46613.8, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+ahampe8c, Hollow Knight, 260, 964.8, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+aharbour71, Half-Life, 189, 89425.3, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+aharrinson9m, Mario & Luigi BIS (DS), 98, 43306.3, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+ahartmanf7, Cuphead, 114, 72583.9, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+aheasmankt, The Legend of Zelda Ocarina of Time, 298, 35591.3, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+aheavysidekr, Animal Crossing New Leaf, 247, 63110.6, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+ahelder9b, Super Mario Bros., 209, 86034.0, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+ahoudmont81, Celeste, 250, 80698.3, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+ahubbertq7, Dark Souls, 38, 11558.3, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+ahuntingdon79, Halo 2, 130, 92358.7, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+aitzik16, Halo 2, 246, 35647.0, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+ajedrysikcx, Bloodborne, 251, 90786.5, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+ajulienpz, New Super Mario Brothers, 189, 765.4, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+akilpatrickh8, Halo 2, 121, 35470.0, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+akinghorne89, Dark Souls, 79, 11053.5, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+alabusquierene, Hollow Knight, 292, 74788.7, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+alocockfl, Portal, 140, 27034.0, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+amalthusx, Minecraft, 269, 25805.6, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+amashal7x, Animal Crossing New Leaf, 295, 49920.1, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+amaudsonlz, Hollow Knight, 51, 5304.9, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+amccluinoy, Super Mario 64, 210, 84003.9, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+amccombech, Minecraft, 251, 57488.2, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+amcgilleghole5s, Cuphead, 229, 66725.0, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+ameadleygk, Half-Life, 172, 37698.7, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+amewburn2c, SpongeBob SquarePants Battle for Bikini Bottom, 222, 49690.0, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+amuslim4d, Bananarang The Scattered Shards, 112, 73628.1, true, 2025-12-03, 2025-12-03T10:29:23.758528
+aogleyhr, Cuphead, 173, 66919.4, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+apallaso, Portal, 123, 84909.6, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+apamplin9w, Bananarang The Scattered Shards, 109, 35669.6, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+aparmbykl, Cuphead, 164, 96031.4, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+apeintonn3, Celeste, 247, 59055.6, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+apennacci9x, FNAF SB, 185, 21543.3, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+apetley17, Super Meat Boy, 12, 76024.0, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+apillmanhf, Celeste, 284, 12755.8, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+apinneybc, Halo 2, 243, 29335.3, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+asammese8, Bloodborne, 263, 98710.6, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+asindell7v, Hollow Knight, 184, 34132.0, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+asleighhh, Animal Crossing New Leaf, 276, 45399.4, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+astrattonko, Halo CE, 143, 64612.1, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+asturt67, Minecraft, 264, 4579.7, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+atestrops, Bloodborne, 96, 43501.0, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+atremainedr, Mario & Luigi BIS (DS), 41, 79401.4, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+atrowillhq, Celeste, 127, 53960.6, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+atuitea7, The Legend of Zelda Ocarina of Time, 146, 55716.9, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+aweeklymh, Super Meat Boy, 51, 14897.6, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+awescottbu, Super Mario 64, 36, 50615.2, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+awhorlow6d, New Super Mario Brothers, 298, 10198.7, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+awidgerp3, FNAF SB, 281, 40385.8, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+awinkettgb, Half-Life Alyx, 24, 97869.7, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+awinterson8w, Half-Life 2, 283, 60220.1, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+azanassiql, Hollow Knight, 194, 55603.0, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+azanolli5u, Mario & Luigi BIS (DS), 91, 10952.3, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+ballikerb2, Bananarang The Scattered Shards, 181, 61945.0, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+banlay49, Halo CE, 235, 91532.0, true, 2025-12-03, 2025-12-03T10:29:23.758528
+bathersmithpv, Dark Souls, 120, 12186.8, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+battreee4, The Legend of Zelda Ocarina of Time, 141, 56733.0, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+bbatisteml, Portal, 245, 25232.9, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+bbeddoim, FNAF SB, 7, 51568.4, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+bbinder2b, Halo 2, 218, 45198.9, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+bblando4, Half-Life 2, 271, 79230.9, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+bblunsomnd, Portal 2, 133, 61860.3, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+bbrasnerci, Super Mario 64, 44, 79403.3, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+bbrotherhead2r, Bananarang The Scattered Shards, 33, 14637.0, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+bbuckthoughtmz, Mario & Luigi BIS (DS), 64, 3356.9, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+bbugbird8y, New Super Mario Brothers, 286, 65496.1, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+bchallonerf0, Halo CE, 18, 7719.5, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+bclorleyb3, Bloodborne, 203, 71620.0, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+bcogzell2e, Super Meat Boy, 192, 15855.0, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+bculp1m, Portal 2, 81, 73643.3, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+bdancerp0, Hollow Knight, 263, 86456.9, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+bdenshamk9, Super Mario Bros., 295, 2823.1, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+bdinse5h, FNAF SB, 150, 27867.8, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+bdorbon6l, Celeste, 169, 66206.1, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+bdurkinla, FNAF SB, 188, 26368.2, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+bearie5p, Portal 2, 210, 34548.1, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+bfarquarsonpc, Halo CE, 257, 11235.6, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+bfleckno6f, Half-Life, 189, 77184.9, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+bgoreisrh4, Animal Crossing New Leaf, 224, 68841.5, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+bgreystockbh, Super Meat Boy, 229, 60268.3, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+bguytondz, SpongeBob SquarePants Battle for Bikini Bottom, 215, 39257.3, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+bhallwoodmr, Portal, 99, 98037.7, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+bhamprecht7k, Cuphead, 79, 44747.1, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+bhinschjx, Bloodborne, 14, 91343.1, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+bhorsell6y, Halo CE, 4, 32574.8, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+bhunnp8, SpongeBob SquarePants Battle for Bikini Bottom, 12, 95678.0, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+bimpettrh, Super Mario Bros., 163, 35664.4, false, 2025-12-03, 2025-12-03T10:29:23.775534300
+binnocentiow, Portal, 158, 47265.6, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+bkinane56, Cuphead, 80, 72334.6, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+bleftridgeq5, Animal Crossing New Leaf, 229, 12548.8, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+bleven7h, Halo CE, 20, 38870.2, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+blisleki, Bloodborne, 91, 47.5, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+bloney1j, Cuphead, 49, 72673.2, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+bmacaskiep, Mario & Luigi BIS (DS), 94, 32746.8, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+bmalicki6v, Portal 2, 211, 1994.6, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+bmichelehl, Bloodborne, 205, 80447.6, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+bmose5y, Super Mario Bros., 227, 26012.2, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+bnovotnagd, SpongeBob SquarePants Battle for Bikini Bottom, 168, 74651.2, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+bob, Powerwash Simulator, 0, 0.0, false, 2025-12-03, 2025-12-03T10:29:23.754527
+bonolandqp, Halo 2, 208, 6420.4, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+bpringer4b, Halo 2, 160, 74705.2, true, 2025-12-03, 2025-12-03T10:29:23.758528
+brevelandmj, Half-Life 2, 136, 35203.7, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+bridgesjv, Celeste, 84, 71370.0, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+brizzellis, FNAF SB, 128, 60440.1, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+broglierohn, Halo CE, 34, 8730.5, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+brudeforthji, Dark Souls, 250, 27139.2, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+bsaddlernc, SpongeBob SquarePants Battle for Bikini Bottom, 47, 59446.8, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+bsandelsh0, FNAF SB, 264, 59401.4, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+bshefton6n, Bloodborne, 84, 62945.8, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+bshoesmith1k, Portal 2, 238, 92736.0, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+bshotboultem3, Half-Life, 132, 49256.6, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+bsirrellbn, Celeste, 44, 13568.4, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+bsoppethlw, The Legend of Zelda Ocarina of Time, 194, 58399.7, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+bstreaterms, Dark Souls, 95, 3442.8, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+bsturgeon9v, Half-Life 2, 98, 15349.1, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+btewkesberry73, Cuphead, 56, 94769.5, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+btildesleymy, Half-Life 2, 34, 90547.7, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+btirreydn, FNAF SB, 287, 17715.3, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+burenqf, Super Mario 64, 65, 80165.5, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+bwardroper8a, Dark Souls, 169, 29803.9, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+bwarlawegj, Bananarang The Scattered Shards, 282, 84429.8, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+bwhildeif, Half-Life, 151, 88263.6, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+bwyettht, Bloodborne, 199, 27233.2, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+bwykeynv, Animal Crossing New Leaf, 125, 71408.4, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+callnerd7, Halo CE, 183, 94165.1, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+canslowhe, Half-Life 2, 167, 30772.4, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+cbailliean, Animal Crossing New Leaf, 178, 81167.9, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+cbalint93, Cuphead, 299, 92371.5, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+cbenedetti1i, New Super Mario Brothers, 245, 15535.0, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+cberkleyi3, Super Mario Bros., 203, 73872.0, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+cbirtdv, Half-Life, 221, 80442.7, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+cbontoftj, Minecraft, 207, 42012.2, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+cborketthm, Mario & Luigi BIS (DS), 217, 16645.6, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+cbrannigan6b, Hollow Knight, 5, 79378.8, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+cbrinkleypn, Halo CE, 288, 42385.5, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+cbrixeyb0, The Legend of Zelda Ocarina of Time, 143, 36559.9, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+cbrockman9f, Half-Life Alyx, 218, 29346.9, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+cbrumbiejo, FNAF SB, 174, 88035.1, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+cbrunetlv, Portal 2, 62, 36093.8, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+ccasbolte9, FNAF SB, 76, 10866.1, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+ccecilpr, Super Mario Bros., 274, 16437.1, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+ccerithg6, Half-Life Alyx, 212, 44248.4, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+cdanilchevbo, Dark Souls, 292, 61430.2, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+cdelouchly, Celeste, 262, 31513.1, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+cdescroixee, Dark Souls, 293, 46522.3, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+cdeverilldl, Animal Crossing New Leaf, 206, 21796.1, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+cdilnota9, Cuphead, 222, 85275.2, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+cduigan1r, Halo CE, 17, 29678.4, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+celwelp2, Animal Crossing New Leaf, 55, 53768.0, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+cfairbard9e, Mario & Luigi BIS (DS), 67, 22820.8, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+cfairebrother94, SpongeBob SquarePants Battle for Bikini Bottom, 297, 79851.4, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+cfippe53, Animal Crossing New Leaf, 264, 21163.4, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+cgebhardtlf, Super Meat Boy, 53, 48464.8, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+cgewer83, Mario & Luigi BIS (DS), 237, 84043.7, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+cgore34, New Super Mario Brothers, 134, 95388.6, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+cgrieves3x, New Super Mario Brothers, 293, 17170.6, true, 2025-12-03, 2025-12-03T10:29:23.758528
+cgrolle31, Half-Life, 24, 10286.7, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+cheadingham4c, Hollow Knight, 124, 18320.7, true, 2025-12-03, 2025-12-03T10:29:23.758528
+chemms8k, Animal Crossing New Leaf, 231, 18375.6, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+chorsleyaq, Hollow Knight, 34, 10354.7, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+chowiesongs, FNAF SB, 153, 87770.1, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+churnellgq, Half-Life 2, 112, 38771.7, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+cjahnischlm, Half-Life, 97, 32716.1, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+cjandl3f, Dark Souls, 199, 45051.9, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+ckeydenbe, Portal 2, 204, 36238.7, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+cklimashevich3j, Halo CE, 155, 31909.5, false, 2025-12-03, 2025-12-03T10:29:23.758528
+cknapman1w, New Super Mario Brothers, 246, 68985.3, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+ckrammerfk, SpongeBob SquarePants Battle for Bikini Bottom, 54, 90167.4, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+ckrausek5, Hollow Knight, 223, 54385.5, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+claughnany, Half-Life Alyx, 146, 44048.5, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+cleahairm1, Super Mario Bros., 218, 6987.6, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+cleahak, Portal, 243, 70826.1, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+clemerle9l, Super Meat Boy, 193, 93769.8, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+cloude4g, New Super Mario Brothers, 201, 53409.9, false, 2025-12-03, 2025-12-03T10:29:23.758528
+clupsoniu, Mario & Luigi BIS (DS), 257, 71203.1, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+cmayou3h, SpongeBob SquarePants Battle for Bikini Bottom, 14, 24816.1, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+cmcmanamenk0, Portal, 116, 38286.9, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+cmeatyardj2, New Super Mario Brothers, 74, 84124.7, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+cmitten48, Half-Life, 130, 63951.7, false, 2025-12-03, 2025-12-03T10:29:23.758528
+cmullineuxm9, Super Mario 64, 219, 65405.2, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+cneweyg, Celeste, 187, 50549.2, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+cnyssenca, Half-Life 2, 202, 86525.6, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+cokennedyh6, Half-Life Alyx, 154, 66839.6, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+coldhami6, Super Mario 64, 152, 13873.1, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+corringdo, Half-Life, 171, 54241.2, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+couterbridge6t, Half-Life 2, 140, 76064.3, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+cpachtlp, Half-Life 2, 216, 73983.5, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+cpattissonfh, Halo 2, 136, 9156.3, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+cpaulettoab, Mario & Luigi BIS (DS), 55, 66178.5, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+cperaccoo9, New Super Mario Brothers, 40, 31509.2, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+cpetkovic8e, Half-Life 2, 207, 70425.3, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+cpettiwarddp, Super Mario 64, 121, 68752.0, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+cpierpointeb, FNAF SB, 184, 57397.9, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+cpinnell1d, SpongeBob SquarePants Battle for Bikini Bottom, 241, 77447.4, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+cpiochhz, FNAF SB, 63, 74269.9, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+cpollingtongo, FNAF SB, 172, 54940.5, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+cripleynu, Bananarang The Scattered Shards, 107, 66763.7, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+cripping7o, Half-Life Alyx, 28, 68840.7, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+cshelfordk, Halo 2, 158, 98953.9, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+cshimukdw, Hollow Knight, 96, 38882.8, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+csmallcomber9, Celeste, 282, 61772.6, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+cspelmanme, Super Mario Bros., 221, 10855.5, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+ctattersfield6p, Minecraft, 300, 47661.1, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+cthoriusop, Hollow Knight, 13, 16039.0, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+cthrowerj3, Bloodborne, 16, 93713.5, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+ctomkysfn, Halo CE, 51, 21963.4, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+ctunstallbk, Cuphead, 50, 19845.9, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+cvermeri1, Hollow Knight, 60, 21199.0, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+cweatherley63, Super Mario Bros., 96, 21097.6, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+cweldricknl, Bloodborne, 298, 98995.9, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+cwendenmf, Bananarang The Scattered Shards, 255, 42319.7, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+cwhales5c, Half-Life, 118, 13506.4, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+cwilliment5v, Half-Life, 119, 75678.2, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+cwinscomhi, Dark Souls, 194, 2924.4, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+cwrethampj, The Legend of Zelda Ocarina of Time, 40, 95458.2, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+cyurevichn7, Super Mario 64, 283, 83103.8, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+czaczekce, The Legend of Zelda Ocarina of Time, 177, 53901.2, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+dallkinshb, Super Mario Bros., 171, 98784.7, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+dbarthelmeses, Bananarang The Scattered Shards, 294, 20859.1, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+dblissettnj, Half-Life 2, 224, 33615.2, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+dboch43, Bananarang The Scattered Shards, 190, 23646.3, false, 2025-12-03, 2025-12-03T10:29:23.758528
+dbodessonkk, New Super Mario Brothers, 136, 93328.3, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+dboskelllr, Celeste, 12, 27820.9, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+dbruinsma78, Mario & Luigi BIS (DS), 81, 13617.7, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+dburk96, Hollow Knight, 269, 81431.5, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+dchainey7g, New Super Mario Brothers, 257, 37571.4, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+dcherm42, The Legend of Zelda Ocarina of Time, 105, 76002.0, false, 2025-12-03, 2025-12-03T10:29:23.758528
+dchitteyq3, Half-Life Alyx, 74, 32230.7, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+dcouch5r, New Super Mario Brothers, 130, 96929.5, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+dcowdenq2, Bananarang The Scattered Shards, 198, 82474.7, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+dcrowterik, SpongeBob SquarePants Battle for Bikini Bottom, 128, 84045.1, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+ddamiatabm, Bloodborne, 211, 7438.2, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+ddruelfw, Portal, 61, 26351.5, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+dduboseg9, Portal 2, 14, 49429.8, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+dedrich1o, Hollow Knight, 135, 42093.4, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+delvinie, SpongeBob SquarePants Battle for Bikini Bottom, 98, 72649.7, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+dfairym6, The Legend of Zelda Ocarina of Time, 243, 47697.1, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+dfanninaz, Half-Life 2, 65, 31151.0, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+dfronzekew, FNAF SB, 39, 71141.4, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+dgartelle0, Cuphead, 143, 74547.0, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+dgave7a, Hollow Knight, 116, 427.0, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+dgerrelsbz, Half-Life Alyx, 258, 47018.1, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+dgreenhaughc0, Portal 2, 33, 85547.7, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+djamison7, Animal Crossing New Leaf, 188, 99059.4, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+dkepeeq, Halo CE, 243, 99811.6, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+dkillimister98, FNAF SB, 293, 85894.3, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+dkybert7z, Celeste, 231, 49075.2, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+dlahivenr, Celeste, 32, 27636.4, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+dlangran1v, Super Mario 64, 241, 80427.0, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+dlemmerpq, The Legend of Zelda Ocarina of Time, 219, 66646.0, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+dlexa1a, SpongeBob SquarePants Battle for Bikini Bottom, 193, 55313.4, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+dlinscottjt, Bloodborne, 284, 85598.6, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+dloadmanmb, Half-Life 2, 229, 30396.0, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+dloinese, Portal 2, 224, 19685.4, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+dlonglands2g, Super Mario Bros., 280, 59523.7, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+dmaccolmjq, Portal 2, 93, 92348.9, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+dmcmeekanra, FNAF SB, 279, 10661.9, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+dmcmillamrf, Celeste, 293, 85573.0, true, 2025-12-03, 2025-12-03T10:29:23.775534300
+dmegroffgv, Halo 2, 50, 31593.3, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+dnuttyo3, Cuphead, 131, 93371.5, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+doddboyen, Portal 2, 126, 81872.0, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+dotto7m, Portal, 118, 79604.5, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+dpatronef6, Hollow Knight, 262, 466.0, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+dpotte4p, Super Mario 64, 215, 6211.6, false, 2025-12-03, 2025-12-03T10:29:23.758528
+dpresserm, FNAF SB, 79, 51411.1, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+dsamarthny, Cuphead, 271, 18515.0, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+dscollanpg, SpongeBob SquarePants Battle for Bikini Bottom, 181, 45532.1, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+dsermanp7, FNAF SB, 172, 21332.5, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+dshanklinov, Half-Life, 226, 67103.0, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+dsibbald9r, Dark Souls, 62, 76745.6, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+dspencleymv, Half-Life 2, 59, 21750.3, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+dstoeckav, Super Mario Bros., 264, 99470.7, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+dsweed3k, Portal 2, 57, 69537.8, true, 2025-12-03, 2025-12-03T10:29:23.758528
+dtopperdy, SpongeBob SquarePants Battle for Bikini Bottom, 183, 43049.5, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+dtoyercm, Bloodborne, 282, 15740.9, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+dtuther88, Portal, 127, 24622.4, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+dweardenm0, Cuphead, 281, 36077.4, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+dwelman0, The Legend of Zelda Ocarina of Time, 188, 83926.4, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+dyarhamc1, FNAF SB, 116, 20116.6, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+ebolstridgej1, Bloodborne, 93, 44601.4, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+eborder2l, The Legend of Zelda Ocarina of Time, 294, 63707.7, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+ecardusph, Bananarang The Scattered Shards, 194, 66547.6, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+ecolebornm7, Portal, 294, 69975.3, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+ecowely8j, Animal Crossing New Leaf, 241, 88767.6, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+edrogancs, Portal 2, 236, 68650.9, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+eenglefield1f, Bloodborne, 145, 47918.2, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+eferie84, New Super Mario Brothers, 220, 85233.4, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+efinnimore5w, Half-Life 2, 276, 68485.2, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+efiskfy, Portal 2, 111, 11466.5, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+efowkesoz, Halo 2, 75, 91843.2, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+egibbie7l, Bloodborne, 274, 55547.4, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+egoly45, Bloodborne, 224, 29252.9, true, 2025-12-03, 2025-12-03T10:29:23.758528
+ehincksfr, The Legend of Zelda Ocarina of Time, 273, 6957.5, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+ehuyghefg, New Super Mario Brothers, 183, 48404.9, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+ejeroschlh, FNAF SB, 183, 66377.3, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+ekempsongx, Portal, 139, 52292.8, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+ekerinseo, Portal, 225, 17814.1, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+elaytham36, Cuphead, 78, 4650.1, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+eleinthall3q, Super Mario Bros., 143, 69751.5, true, 2025-12-03, 2025-12-03T10:29:23.758528
+eloftie6i, Super Mario Bros., 148, 82415.5, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+emacairtlj, Cuphead, 193, 31629.8, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+emacrury8l, Portal, 161, 93130.2, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+emartynsq0, Halo 2, 59, 87952.6, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+emeecegi, Portal 2, 278, 40114.2, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+epaverac, Celeste, 94, 55940.1, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+epetracek1t, Half-Life 2, 187, 95323.7, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+epolamontaynef2, Animal Crossing New Leaf, 98, 61350.8, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+eroalfek1, Portal 2, 189, 67373.3, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+esorrie4t, Half-Life Alyx, 263, 33457.5, false, 2025-12-03, 2025-12-03T10:29:23.758528
+estarton2z, Bloodborne, 24, 6594.1, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+etrevaskus11, Half-Life 2, 183, 60634.1, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+ewadworthgf, Portal 2, 277, 49468.7, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+ewindrassaf, Half-Life Alyx, 91, 24419.8, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+fabrahamovitzg5, Cuphead, 165, 98342.1, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+fashbridge5e, Halo CE, 164, 69122.9, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+fbarwell8r, Celeste, 1, 80350.9, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+fgilsthorpea, Animal Crossing New Leaf, 17, 65783.0, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+fgoodfield3u, Portal 2, 229, 17108.8, false, 2025-12-03, 2025-12-03T10:29:23.758528
+fgowlingiw, Super Meat Boy, 286, 8841.3, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+fhammerj7, Super Mario 64, 20, 5856.1, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+fkinnerley38, SpongeBob SquarePants Battle for Bikini Bottom, 297, 32562.1, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+flaffordcn, Bloodborne, 65, 30625.1, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+fludgatecd, Cuphead, 171, 3546.1, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+fmerittb1, Minecraft, 277, 31156.5, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+fmoorton8x, Mario & Luigi BIS (DS), 179, 61454.9, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+fneubiginrg, Bloodborne, 95, 89822.6, true, 2025-12-03, 2025-12-03T10:29:23.775534300
+fpierse54, Bloodborne, 205, 4506.9, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+fschuhnk, Bananarang The Scattered Shards, 134, 99609.8, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+fstegelk4, Halo CE, 33, 74172.4, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+ftealjk, Bananarang The Scattered Shards, 255, 12304.9, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+ftraves4q, FNAF SB, 96, 17846.0, false, 2025-12-03, 2025-12-03T10:29:23.758528
+ftremonte8, Portal 2, 272, 16536.4, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+ftuffieldby, Super Mario 64, 250, 34453.0, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+ganthon8z, Halo 2, 259, 52804.0, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+garonovitzjg, Halo CE, 284, 27800.5, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+gbachni, Celeste, 274, 29734.2, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+gbeebeeft, Portal 2, 247, 23070.2, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+gbletsorj6, Minecraft, 14, 35435.7, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+gboylund1e, FNAF SB, 149, 93907.5, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+gbrigdenbi, Dark Souls, 148, 71204.0, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+gbrinkworth14, Half-Life 2, 289, 69883.6, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+gbrookbankd3, Half-Life Alyx, 63, 75468.8, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+gburl4z, Halo 2, 8, 16955.8, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+gcawthry4o, SpongeBob SquarePants Battle for Bikini Bottom, 9, 28737.0, false, 2025-12-03, 2025-12-03T10:29:23.758528
+gchaudhryae, New Super Mario Brothers, 233, 91142.4, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+gchippingmo, Half-Life 2, 298, 77993.4, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+gclixbygt, The Legend of Zelda Ocarina of Time, 8, 39869.5, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+gcompton6m, Hollow Knight, 23, 59877.6, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+gcorradi2x, Bloodborne, 55, 69800.8, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+gdalzellcv, Portal, 38, 15552.8, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+gdunleajw, Cuphead, 58, 13926.7, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+gdymondpi, Super Meat Boy, 135, 83520.5, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+gelecumhw, Halo 2, 122, 51165.6, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+gelletonl9, The Legend of Zelda Ocarina of Time, 120, 42227.6, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+gfairhead9t, Portal, 86, 11674.4, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+gfell4m, Bloodborne, 32, 17506.2, true, 2025-12-03, 2025-12-03T10:29:23.758528
+ghardenpe, Super Mario 64, 134, 11563.0, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+ghryncewicz50, Bananarang The Scattered Shards, 241, 44336.8, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+gissitta1, Portal 2, 247, 94967.2, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+givanshintsev86, Portal, 167, 21183.8, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+giwaszkiewicziq, Portal 2, 35, 96564.2, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+gkastinglu, SpongeBob SquarePants Battle for Bikini Bottom, 287, 69283.5, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+gkeysel6r, New Super Mario Brothers, 204, 56835.9, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+glightbodyej, Mario & Luigi BIS (DS), 223, 35870.2, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+gloffelau, Bananarang The Scattered Shards, 282, 5072.7, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+gmartinolli6a, Half-Life Alyx, 15, 6880.6, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+gmoloneykm, Dark Souls, 294, 42807.3, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+golomandu, Half-Life 2, 142, 26676.9, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+gpaulon44, Bananarang The Scattered Shards, 289, 70639.6, false, 2025-12-03, 2025-12-03T10:29:23.758528
+gperigoe6k, Bloodborne, 149, 66581.6, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+gpettetg7, Dark Souls, 207, 97366.3, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+gpovallt, Halo 2, 116, 26843.1, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+gpoxonhv, Hollow Knight, 207, 85661.9, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+gsandfordbj, Portal 2, 24, 52931.7, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+gsayesq9, Super Mario 64, 227, 25961.7, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+gsimmonho, Halo 2, 21, 65198.2, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+gtellenbrok87, The Legend of Zelda Ocarina of Time, 244, 16664.3, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+gturmel52, Celeste, 135, 96412.7, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+gveysey5z, Dark Souls, 117, 29052.3, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+gwaterfieldd9, Halo CE, 251, 45751.6, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+gwordingtonk3, Minecraft, 14, 62096.7, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+gwrenchai, Half-Life, 100, 71912.6, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+gyeomansc5, Halo CE, 10, 1288.8, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+gyurovka, Mario & Luigi BIS (DS), 279, 73180.0, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+hbewlyas, Portal, 89, 56747.5, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+hbrogihd, Halo 2, 73, 79947.3, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+hburcomben6, Halo CE, 104, 90374.2, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+hcrockford99, Halo 2, 45, 32706.8, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+hdeblasiiz, Bloodborne, 34, 22147.8, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+hdellitns, The Legend of Zelda Ocarina of Time, 260, 70882.9, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+hdevillierix, Halo 2, 235, 22885.3, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+hdumpletone6, Portal, 1, 22554.1, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+heliesku, Bloodborne, 85, 11231.4, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+hgianettini8m, Portal 2, 288, 31880.2, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+hgodfreeao, Super Mario Bros., 81, 1881.2, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+hjacmar1s, Super Mario 64, 190, 14650.2, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+hjocickv, Minecraft, 222, 70861.6, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+hjorih7, Portal, 24, 5297.8, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+hklageman8n, Super Mario 64, 191, 92801.5, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+hlaimablegh, Super Meat Boy, 78, 47738.5, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+hlevet3v, Half-Life 2, 25, 58594.9, false, 2025-12-03, 2025-12-03T10:29:23.758528
+hmatteuzzi4l, Hollow Knight, 131, 39765.9, true, 2025-12-03, 2025-12-03T10:29:23.758528
+hmcgaugheyfc, Portal 2, 118, 49476.5, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+hmiddup28, Halo 2, 30, 79189.4, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+hmuckianpw, Animal Crossing New Leaf, 115, 80466.7, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+hnilandma, Super Mario Bros., 243, 53014.2, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+hpetrushkald, Half-Life 2, 193, 3532.4, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+hpharopf, Dark Souls, 164, 89081.1, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+hprichetfz, Cuphead, 284, 12334.5, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+hronchettict, Half-Life 2, 244, 48116.2, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+hsonesnw, Celeste, 99, 83637.0, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+htrusteyll, Half-Life Alyx, 34, 51967.0, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+hvelldenbp, Animal Crossing New Leaf, 167, 20913.2, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+iammerda, Dark Souls, 43, 18150.4, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+ibalasdd, Half-Life Alyx, 89, 29143.3, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+idabornqg, FNAF SB, 288, 81245.9, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+idorbin55, Mario & Luigi BIS (DS), 193, 81186.3, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+iellington9c, Animal Crossing New Leaf, 206, 87601.1, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+igaffneybt, Portal 2, 9, 10549.8, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+igushlq, Bananarang The Scattered Shards, 211, 39783.2, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+iheintschn2, Halo 2, 72, 42290.6, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+ihumesha, Cuphead, 216, 29655.0, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+imonkleyjd, Super Mario Bros., 37, 89838.8, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+inorreyj4, Portal, 231, 2580.9, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+ipendlentonge, Portal, 96, 61884.2, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+ipottie62, Dark Souls, 152, 23577.1, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+ipridie8d, Bananarang The Scattered Shards, 231, 46525.5, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+irean1u, Animal Crossing New Leaf, 204, 78049.5, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+irenshawfx, Halo 2, 218, 77422.3, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+isaddga, Hollow Knight, 100, 48410.0, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+isawergp, Minecraft, 43, 69061.2, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+isewell25, New Super Mario Brothers, 164, 3026.0, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+iwitheyff, Half-Life 2, 10, 67875.2, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+jadame5q, Celeste, 237, 71627.6, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+jandreolettigw, Animal Crossing New Leaf, 203, 16149.3, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+jbealton1b, Bananarang The Scattered Shards, 241, 21854.5, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+jbennenpk, New Super Mario Brothers, 25, 76335.9, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+jbroadfieldo7, Halo CE, 166, 82163.4, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+jbrongerbw, Celeste, 167, 87236.0, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+jcandwellnm, Minecraft, 8, 29176.0, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+jdarrigoe3r, Animal Crossing New Leaf, 170, 43703.3, false, 2025-12-03, 2025-12-03T10:29:23.758528
+jdegnen6z, Portal, 124, 84928.7, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+jdobbinsonhs, Hollow Knight, 92, 873.2, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+jdredge9g, Super Mario 64, 286, 82138.6, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+jdupland5, Halo 2, 238, 60039.2, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+jdye2y, Portal, 181, 2388.9, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+jdyshartb7, Super Mario 64, 156, 48778.4, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+jfleaya0, The Legend of Zelda Ocarina of Time, 182, 59089.6, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+jgatch7f, Half-Life Alyx, 191, 92214.4, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+jgrellis4w, Dark Souls, 240, 87668.6, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+jguile4a, Super Meat Boy, 134, 22972.7, false, 2025-12-03, 2025-12-03T10:29:23.758528
+jjolinlc, Dark Souls, 34, 39242.1, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+jlovekin7r, Halo CE, 141, 12016.5, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+jlowingoe, Minecraft, 248, 19584.5, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+jlukesja, Celeste, 56, 72137.5, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+jlundbergl6, Half-Life Alyx, 155, 68853.1, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+jmankorlt, Super Mario Bros., 53, 4983.3, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+jmatteotti41, Portal 2, 89, 15867.4, true, 2025-12-03, 2025-12-03T10:29:23.758528
+jmiskimmonq, Portal, 238, 23977.8, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+jmussenmk, Celeste, 207, 99503.1, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+jnormansellq4, Minecraft, 41, 25459.1, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+jokeyc3, Portal, 60, 90058.4, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+jorigane1, The Legend of Zelda Ocarina of Time, 103, 42354.0, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+jpilchds, Dark Souls, 288, 39514.2, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+jpovelek8, SpongeBob SquarePants Battle for Bikini Bottom, 9, 91001.2, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+jreddie2i, Half-Life 2, 116, 63224.7, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+jscriver51, Minecraft, 139, 73538.4, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+jsisey3d, Celeste, 18, 82374.8, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+jsurgeonerq8, Hollow Knight, 247, 77467.3, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+jthurlbeck66, Super Mario 64, 184, 64571.4, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+jtowo0, Minecraft, 39, 53219.1, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+jturle2p, Mario & Luigi BIS (DS), 206, 61486.7, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+jtynan9a, The Legend of Zelda Ocarina of Time, 69, 93588.5, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+jvowdenc4, SpongeBob SquarePants Battle for Bikini Bottom, 288, 67440.7, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+kadcock59, Cuphead, 135, 39728.2, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+kalbion4s, Super Meat Boy, 136, 25887.0, false, 2025-12-03, 2025-12-03T10:29:23.758528
+kambergeriv, Cuphead, 164, 78303.7, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+kankers75, Half-Life 2, 84, 70144.5, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+kausiellol, Celeste, 69, 91851.2, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+kbattellejs, Super Mario Bros., 288, 53593.9, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+kbento6q, New Super Mario Brothers, 235, 46486.5, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+kblind1p, Hollow Knight, 122, 59840.9, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+kbowater1l, Portal 2, 147, 98064.2, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+kbramahrc, The Legend of Zelda Ocarina of Time, 272, 84223.2, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+kchesterman5d, Mario & Luigi BIS (DS), 281, 91154.4, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+kdomoneib, Celeste, 67, 23502.3, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+kdoulfm, Portal, 179, 92841.5, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+kdrever24, Half-Life 2, 114, 24098.4, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+kduffane3, Bloodborne, 215, 44577.8, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+kevett9s, Cuphead, 98, 97569.7, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+kfibbit3p, Cuphead, 112, 8560.1, false, 2025-12-03, 2025-12-03T10:29:23.758528
+kfurneauxbx, Celeste, 234, 23718.6, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+kgiffencp, Half-Life Alyx, 263, 34172.7, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+kgres1, Halo CE, 191, 46370.9, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+khackleyob, Animal Crossing New Leaf, 109, 91070.9, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+khartgillah, Celeste, 229, 40808.7, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+khebblewhite61, Animal Crossing New Leaf, 51, 75392.8, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+khendrickx97, New Super Mario Brothers, 142, 11709.1, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+khukinshy, Portal 2, 278, 94306.1, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+kkasparbs, Portal, 197, 73200.9, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+kkennerleypm, Portal, 91, 62390.4, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+kkivlin12, The Legend of Zelda Ocarina of Time, 189, 41376.6, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+klundyd0, Bananarang The Scattered Shards, 190, 90734.1, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+kmatthewesre, Half-Life 2, 159, 49420.6, true, 2025-12-03, 2025-12-03T10:29:23.775534300
+kmcbratneyoc, Half-Life Alyx, 79, 88843.0, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+kmckellenkq, Bloodborne, 292, 36377.1, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+kmullany2m, Super Meat Boy, 136, 16766.8, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+kodgerf3, Portal, 139, 53664.9, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+koheneghan3s, Dark Souls, 158, 11755.2, false, 2025-12-03, 2025-12-03T10:29:23.758528
+kosmanpx, The Legend of Zelda Ocarina of Time, 273, 39075.0, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+kpenhallurickkd, New Super Mario Brothers, 22, 22071.1, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+kpfeiferr2, Super Meat Boy, 171, 61211.0, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+kquarton8g, Celeste, 156, 99037.4, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+kredonnn, SpongeBob SquarePants Battle for Bikini Bottom, 238, 32812.9, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+kreedeoo, Mario & Luigi BIS (DS), 188, 67966.2, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+krottenbury80, FNAF SB, 127, 80023.0, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+ksainsis, Mario & Luigi BIS (DS), 168, 99238.2, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+kscaneei, Halo 2, 74, 44826.5, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+kshanksm4, FNAF SB, 43, 791.7, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+kshurmoreb8, Half-Life Alyx, 217, 16767.5, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+ksmitton15, Halo 2, 64, 91715.7, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+kternentcf, Halo 2, 226, 29450.5, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+kussherqc, New Super Mario Brothers, 280, 67567.5, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+kwonfar9y, Animal Crossing New Leaf, 163, 90754.2, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+kyairkx, FNAF SB, 245, 79541.0, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+lbaxstarls, Halo CE, 110, 25899.8, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+lbischope2, Super Mario 64, 89, 32729.4, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+lbrabinf1, Super Mario 64, 111, 21355.7, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+lbresnerog, Half-Life 2, 258, 59541.5, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+lbrickham5l, FNAF SB, 194, 13354.4, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+lbuttler, Bananarang The Scattered Shards, 207, 47221.2, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+lchessno, Animal Crossing New Leaf, 284, 33851.9, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+lcolbrun8h, The Legend of Zelda Ocarina of Time, 127, 15066.0, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+lcrillyoj, Portal 2, 42, 68305.5, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+lcurnuckebd, Mario & Luigi BIS (DS), 253, 41926.1, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+ldaniellotp4, Portal, 263, 81598.3, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+ldankp1, Hollow Knight, 15, 12299.5, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+lderringtonfo, Minecraft, 237, 24330.4, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+ldorricottg2, Celeste, 94, 45591.7, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+ldraysay2q, Half-Life Alyx, 272, 87178.7, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+lduckworth18, New Super Mario Brothers, 74, 29880.1, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+ldungayl0, Cuphead, 243, 11454.4, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+ldykinsw, New Super Mario Brothers, 165, 78929.3, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+lesbyhx, Hollow Knight, 184, 9513.9, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+leylesl7, Portal, 34, 57725.8, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+lfydoed2, New Super Mario Brothers, 191, 62720.2, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+lgeardap, Celeste, 277, 36243.7, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+lglascottol, Half-Life Alyx, 256, 34236.0, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+lgrouenhj, Dark Souls, 61, 15924.1, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+lhickenbb, Portal, 233, 57224.3, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+lhutchcraft23, Dark Souls, 72, 62024.2, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+ljobernecj, Celeste, 18, 51867.1, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+ljuszczak13, Dark Souls, 63, 94528.0, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+llavensky, The Legend of Zelda Ocarina of Time, 12, 50574.7, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+llerhinang1, Bananarang The Scattered Shards, 157, 55601.1, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+llindelofo2, Half-Life 2, 235, 73583.5, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+lmacdougallmu, Bloodborne, 210, 38286.5, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+lmagor33, Minecraft, 214, 70723.5, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+lmcdowalldc, New Super Mario Brothers, 114, 24951.3, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+lmicoj8, Dark Souls, 184, 13247.5, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+lmorenoju, Super Mario Bros., 176, 64562.5, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+lnelthorpe77, FNAF SB, 229, 7594.1, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+lostridgeqm, SpongeBob SquarePants Battle for Bikini Bottom, 50, 79375.9, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+lpaulitschke91, Super Mario Bros., 246, 83117.6, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+lpelmaniy, Half-Life 2, 161, 43408.5, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+lpickworthn8, Bananarang The Scattered Shards, 198, 40579.1, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+lpinchbeckic, Super Meat Boy, 83, 8923.3, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+lpletek, Half-Life, 249, 41724.9, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+lpocke8q, Halo 2, 286, 97430.9, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+lponter5m, Animal Crossing New Leaf, 266, 14537.1, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+lransomg8, Hollow Knight, 56, 39350.2, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+lreffordkg, Animal Crossing New Leaf, 142, 86944.6, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+lrispinen0, Halo CE, 244, 68011.4, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+lrosenfrucht7s, Bananarang The Scattered Shards, 209, 13323.4, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+lruiltonl5, Super Mario Bros., 163, 82404.6, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+lsandbrook6x, Halo 2, 30, 47560.3, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+lsazio2, Hollow Knight, 133, 80274.3, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+lselmanoh, Halo 2, 150, 93974.9, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+lsemens3m, Bananarang The Scattered Shards, 63, 76500.5, true, 2025-12-03, 2025-12-03T10:29:23.758528
+lshernockh5, Half-Life 2, 78, 76117.7, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+lshilstone1q, Dark Souls, 253, 67332.9, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+ltick4y, Celeste, 198, 20540.6, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+ltraillqo, Hollow Knight, 13, 89981.1, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+ltriggol6g, Portal 2, 35, 58534.0, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+lwrattendt, Animal Crossing New Leaf, 101, 60441.1, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+lyulelk, Halo CE, 168, 94126.3, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+mallwellh9, Super Meat Boy, 113, 75099.4, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+maronstein2a, Animal Crossing New Leaf, 240, 70478.1, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+marsmithc8, Dark Souls, 59, 85131.7, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+mbalfre8p, New Super Mario Brothers, 216, 41403.5, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+mblakelypd, Super Meat Boy, 215, 67840.4, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+mbodyr4, Halo CE, 254, 9734.0, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+mbrotherheed5x, Celeste, 287, 45082.8, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+mbryersay, Halo CE, 273, 74667.4, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+mcattal, Portal, 193, 4007.4, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+mcharplingrb, Celeste, 274, 4935.5, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+mcleavelandmi, Cuphead, 281, 98267.2, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+mcotilardqz, Portal, 203, 86688.0, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+mcraufordn4, SpongeBob SquarePants Battle for Bikini Bottom, 251, 24156.5, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+mdaudnh, Cuphead, 94, 33857.0, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+mdegogaycg, Halo 2, 283, 71218.8, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+mdegregarioad, Half-Life 2, 158, 9979.7, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+mdenizet4h, Super Mario 64, 259, 62136.7, true, 2025-12-03, 2025-12-03T10:29:23.758528
+mearll3, Half-Life Alyx, 218, 22247.7, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+mended1, SpongeBob SquarePants Battle for Bikini Bottom, 180, 46293.5, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+meuelsna, Super Mario Bros., 14, 41380.9, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+mfeehely5b, New Super Mario Brothers, 71, 5083.4, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+mfockescr, Halo CE, 58, 82185.6, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+mfuxman60, Bloodborne, 263, 32025.0, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+mgabbott9p, Celeste, 207, 43331.9, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+mginley6u, Halo 2, 56, 39266.5, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+mgonneau5t, The Legend of Zelda Ocarina of Time, 119, 48761.3, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+mhadny46, Minecraft, 106, 55530.6, false, 2025-12-03, 2025-12-03T10:29:23.758528
+mhaggettqt, Minecraft, 4, 90436.1, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+mhandmore3l, Super Mario Bros., 135, 66794.4, false, 2025-12-03, 2025-12-03T10:29:23.758528
+mhedinghamia, New Super Mario Brothers, 289, 71691.3, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+mhubbold7j, Mario & Luigi BIS (DS), 70, 94682.8, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+mjanic2k, Portal 2, 8, 76641.7, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+mjephcoteat, The Legend of Zelda Ocarina of Time, 175, 25983.2, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+mjerwoodmn, Dark Souls, 131, 72805.0, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+mlagesqq, Halo CE, 210, 26023.2, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+mlathayelb, Super Mario Bros., 246, 58576.0, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+mlayburn7b, Half-Life, 1, 65397.1, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+mlibbebf, New Super Mario Brothers, 74, 64835.8, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+mlopesf4, Super Meat Boy, 150, 36613.2, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+mmarrisfs, Super Mario Bros., 59, 36694.0, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+mmartinsonfi, SpongeBob SquarePants Battle for Bikini Bottom, 91, 37955.1, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+mmarvalmg, The Legend of Zelda Ocarina of Time, 228, 93601.3, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+mmawsonou, Bloodborne, 51, 80738.7, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+mmaylera3, Half-Life, 243, 58933.7, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+mmckibben4j, Super Mario 64, 24, 72714.7, true, 2025-12-03, 2025-12-03T10:29:23.758528
+mmcpheliml8, Half-Life Alyx, 97, 97940.1, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+mmenaultfb, Half-Life Alyx, 113, 57227.3, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+mmetheringhammt, Minecraft, 185, 82259.8, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+mmordin7q, Hollow Knight, 292, 70781.6, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+mpabstr3, Mario & Luigi BIS (DS), 176, 85371.3, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+mpattendenlx, Half-Life 2, 279, 30595.8, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+mpaullqk, Half-Life, 232, 69614.9, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+mpeele5n, Halo CE, 41, 54437.5, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+mpippard3n, Animal Crossing New Leaf, 29, 5756.7, true, 2025-12-03, 2025-12-03T10:29:23.758528
+mputtonjc, Super Mario Bros., 215, 19418.1, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+mrallingnz, The Legend of Zelda Ocarina of Time, 296, 55322.7, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+mramalheten, Minecraft, 64, 9017.6, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+mschlagqw, FNAF SB, 212, 72454.7, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+mschoenrock1g, Hollow Knight, 150, 76209.2, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+mscudamoreig, Minecraft, 69, 43155.9, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+mspringc6, Minecraft, 107, 73173.3, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+mstimpsoni0, Celeste, 80, 37260.7, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+msurplissr8, Mario & Luigi BIS (DS), 28, 5260.4, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+mtarrenr1, The Legend of Zelda Ocarina of Time, 138, 60725.2, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+mtolertonqb, Celeste, 150, 4215.1, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+mtraskv, Minecraft, 3, 40353.6, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+mtroutbeck9z, Half-Life Alyx, 288, 87220.8, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+mtuffin22, Animal Crossing New Leaf, 54, 3823.3, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+mwarmington3b, Bloodborne, 51, 95644.0, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+mwiffenin, Half-Life Alyx, 286, 91934.1, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+mwissbeynt, Portal, 297, 94198.4, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+myongkw, Half-Life Alyx, 104, 26872.9, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+mzylbermannc2, Super Mario 64, 126, 43079.3, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+naddenbrookea8, Super Mario 64, 231, 52986.0, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+nalejonb, Half-Life, 124, 59415.5, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+nbillyealdkh, Half-Life 2, 35, 59741.3, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+ncaddanqy, Halo 2, 225, 69965.6, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+ncaustoni8, Super Mario 64, 254, 54531.8, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+ndarlingck, Portal, 277, 56567.6, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+ndebenedetti27, The Legend of Zelda Ocarina of Time, 271, 44761.3, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+ndiblegg, Cuphead, 72, 81845.6, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+ndisdelj9, Animal Crossing New Leaf, 91, 89654.9, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+ndorningj5, Hollow Knight, 198, 81419.2, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+neickhoffpu, The Legend of Zelda Ocarina of Time, 83, 90102.3, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+nface2o, Mario & Luigi BIS (DS), 91, 17870.4, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+nfendtcz, Animal Crossing New Leaf, 144, 94461.4, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+nfishly2f, Portal 2, 237, 97514.1, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+ngamage1x, Hollow Knight, 170, 39309.3, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+ngoldingdi, Cuphead, 230, 16508.1, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+ngoodee95, Half-Life 2, 107, 22267.8, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+nharnottar, Super Meat Boy, 130, 28926.1, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+nheinsiusag, Mario & Luigi BIS (DS), 25, 35684.7, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+nhulkemx, Bananarang The Scattered Shards, 37, 88662.7, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+nionn29, Animal Crossing New Leaf, 161, 37745.6, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+nlaileydk, Bloodborne, 69, 42846.1, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+nleacock7n, Mario & Luigi BIS (DS), 249, 19989.5, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+nmacgeaney8v, Super Mario Bros., 108, 58007.6, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+nmancerpp, Hollow Knight, 138, 70526.5, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+nmurchcu, Mario & Luigi BIS (DS), 181, 70410.3, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+nnewlynor, Halo 2, 15, 60472.0, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+noene3i, Halo 2, 101, 5682.0, false, 2025-12-03, 2025-12-03T10:29:23.758528
+npetrazzicq, Dark Souls, 240, 9809.8, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+nprinnoq, Celeste, 101, 27467.5, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+nrowneyo6, Super Mario Bros., 277, 38317.0, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+nroxby3e, Celeste, 97, 85240.3, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+nsemarkks, Half-Life 2, 165, 51272.0, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+ntallowec, Half-Life 2, 177, 26523.1, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+ntuckerc7, Celeste, 31, 1799.4, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+nvawtonir, Half-Life Alyx, 8, 12073.0, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+nvolette3a, SpongeBob SquarePants Battle for Bikini Bottom, 53, 52587.6, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+nweatherall9o, Super Meat Boy, 230, 98800.9, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+nwillavoys8b, Half-Life, 41, 70179.3, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+obowheyqx, Celeste, 204, 45779.0, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+odavidavidovicsqn, Halo 2, 83, 94897.9, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+odomanskif, Celeste, 161, 77985.3, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+ogillianjn, Portal 2, 230, 66763.4, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+okindleyqi, Half-Life, 36, 42266.2, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+olabelea, Mario & Luigi BIS (DS), 72, 66730.8, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+olobleq1, New Super Mario Brothers, 262, 59982.7, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+omizzenln, Half-Life 2, 272, 4075.5, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+oplumsteadq6, New Super Mario Brothers, 177, 84527.2, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+opoluzzinq, Super Mario Bros., 89, 97036.9, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+orocca4u, Bananarang The Scattered Shards, 92, 91503.0, false, 2025-12-03, 2025-12-03T10:29:23.758528
+ovitalled, Hollow Knight, 295, 78066.7, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+oyoell4x, Bloodborne, 57, 87509.0, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+padnamsbq, SpongeBob SquarePants Battle for Bikini Bottom, 78, 66322.3, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+panster92, Dark Souls, 189, 46911.4, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+passer5k, Halo CE, 285, 25626.6, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+pbeard8s, SpongeBob SquarePants Battle for Bikini Bottom, 259, 20616.1, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+pbyart69, New Super Mario Brothers, 214, 79859.5, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+pcorkitte7, Minecraft, 30, 2081.7, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+pculhamnx, Halo CE, 236, 13530.5, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+pdeeksmw, Bloodborne, 269, 41104.2, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+pearleso5, Halo 2, 267, 12110.3, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+pfildery3t, Halo 2, 127, 88054.6, true, 2025-12-03, 2025-12-03T10:29:23.758528
+pgarrickox, Portal 2, 108, 43273.2, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+pgaunsonke, Halo CE, 116, 17880.9, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+pglindeip, Celeste, 151, 10541.7, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+pgrowcott3w, Bananarang The Scattered Shards, 186, 8039.4, false, 2025-12-03, 2025-12-03T10:29:23.758528
+pkerss1n, Minecraft, 6, 89375.2, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+plassey9k, Half-Life Alyx, 244, 51960.0, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+plearmouthrd, Halo 2, 213, 697.4, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+plimrickc, Animal Crossing New Leaf, 114, 22379.3, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+plyptrade2n, Portal 2, 40, 23194.7, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+pmatthisle, SpongeBob SquarePants Battle for Bikini Bottom, 199, 97777.6, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+pmcterrydm, Portal 2, 15, 56244.2, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+pmelsomejj, Minecraft, 186, 6246.7, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+poats5o, Half-Life Alyx, 68, 42534.2, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+ppackman7c, Hollow Knight, 192, 99306.0, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+ppoleyecw, Super Mario Bros., 215, 80414.0, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+preanyh, Celeste, 289, 61753.8, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+preef9n, FNAF SB, 103, 56898.4, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+psleney30, SpongeBob SquarePants Battle for Bikini Bottom, 105, 7697.3, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+pstanlakeih, Halo CE, 177, 73635.0, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+pswaddler0, Super Mario Bros., 123, 48657.1, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+ptrounce6c, Celeste, 211, 53636.2, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+ptwinbrowjp, Halo 2, 273, 59049.3, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+pvanesc9, Bananarang The Scattered Shards, 84, 4408.6, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+qjaniakgc, Portal 2, 192, 83910.9, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+qsloanel, Half-Life 2, 257, 3339.4, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+randreou9, The Legend of Zelda Ocarina of Time, 56, 56887.9, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+rayresde, Portal, 146, 49663.3, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+rbarthelmes20, Super Meat Boy, 190, 29111.8, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+rblighfv, Super Meat Boy, 85, 95535.4, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+rbloodworthb5, SpongeBob SquarePants Battle for Bikini Bottom, 66, 88605.4, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+rboolenf, Half-Life Alyx, 183, 29782.1, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+rbosherqs, Super Meat Boy, 174, 62692.4, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+rbrahan1c, Minecraft, 216, 66585.7, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+rcalladineg3, Half-Life 2, 111, 72835.0, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+rcaneobr, Minecraft, 95, 45478.7, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+rcarvillamp, Hollow Knight, 14, 92709.3, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+rcockhill35, Bananarang The Scattered Shards, 284, 57004.1, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+rcotterelhu, Cuphead, 142, 45916.7, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+rdennistongu, Bloodborne, 109, 72745.2, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+rdibberti2, Bananarang The Scattered Shards, 24, 41911.0, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+rdisbury39, Cuphead, 188, 28958.1, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+rdodgsona5, Super Mario 64, 84, 82055.4, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+remorjz, Super Mario 64, 182, 38283.1, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+rfannhg, The Legend of Zelda Ocarina of Time, 209, 75828.3, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+rfeldsteind4, Celeste, 184, 59660.7, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+rfilanl1, Super Mario 64, 253, 46842.6, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+rfriftd6, Animal Crossing New Leaf, 290, 20713.0, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+rhalsogy, Portal, 18, 59535.5, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+rhayesman7e, Minecraft, 8, 81565.1, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+rhindsbergo8, Celeste, 204, 82461.4, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+rizatsonhk, Halo CE, 186, 31623.0, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+rjewess9h, Bloodborne, 235, 76023.2, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+rlemme6, Super Mario Bros., 17, 98432.5, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+rlifer7, The Legend of Zelda Ocarina of Time, 267, 91627.9, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+rlutasdj, Halo 2, 256, 28541.4, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+rmaasso1, Dark Souls, 40, 84395.0, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+rmaffuccijb, Halo 2, 275, 48222.6, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+rmarlen1y, Dark Souls, 57, 97847.4, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+rmccroriefe, Dark Souls, 292, 40235.5, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+rmcfaddenok, Mario & Luigi BIS (DS), 265, 10968.4, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+rmconie5j, Halo 2, 198, 4245.6, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+rmoncktoni4, Super Mario 64, 122, 75837.3, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+rnequestm5, Mario & Luigi BIS (DS), 231, 32635.7, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+rpaull2, Animal Crossing New Leaf, 123, 57679.7, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+rplummqd, Animal Crossing New Leaf, 259, 57935.2, true, 2025-12-03, 2025-12-03T10:29:23.774531400
+rrevill3, Cuphead, 244, 47040.7, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+rrumke7d, Portal 2, 224, 19809.1, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+rshaplinqh, FNAF SB, 180, 6340.3, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+rshimwellk2, Portal, 88, 11258.9, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+rslimmdq, New Super Mario Brothers, 66, 18867.2, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+rsnellmanlg, Cuphead, 86, 79001.5, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+rsothernaw, Mario & Luigi BIS (DS), 291, 40769.1, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+rspourebl, Dark Souls, 160, 26607.4, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+rspurgeonem, Bloodborne, 280, 78636.9, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+rstandfieldgm, Mario & Luigi BIS (DS), 257, 50140.6, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+rsyderil, Super Meat Boy, 62, 62726.0, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+rtonkinaj, SpongeBob SquarePants Battle for Bikini Bottom, 68, 28680.8, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+rwabeya4, SpongeBob SquarePants Battle for Bikini Bottom, 134, 46529.9, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+sanselmi82, New Super Mario Brothers, 64, 35559.7, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+sbaigrief5, Hollow Knight, 49, 83360.6, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+sbarroux9u, Super Mario 64, 227, 61640.1, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+sbartolommeoeg, Portal, 66, 86641.6, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+sbetjemanet, Bananarang The Scattered Shards, 111, 61165.1, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+sbiskupekqj, Super Mario Bros., 70, 47828.6, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+sbluett1z, Half-Life, 180, 63467.3, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+sboas7u, Halo CE, 171, 82085.9, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+sbohman6w, Portal 2, 109, 16584.8, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+sbreslanekz, Halo CE, 144, 31334.2, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+sbrewitt2t, Bananarang The Scattered Shards, 185, 25183.0, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+sbrown3z, Halo 2, 4, 8993.3, false, 2025-12-03, 2025-12-03T10:29:23.758528
+scahankf, Hollow Knight, 242, 69210.6, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+sceceremc, Hollow Knight, 243, 2401.4, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+sclague9i, Bananarang The Scattered Shards, 108, 10355.3, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+scouser4r, Super Meat Boy, 189, 30030.0, true, 2025-12-03, 2025-12-03T10:29:23.758528
+sdacombej0, FNAF SB, 200, 50585.2, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+sdenzeyom, Portal 2, 131, 57992.8, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+sdimeo3c, FNAF SB, 191, 41795.4, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+sdionisibv, Bananarang The Scattered Shards, 133, 60977.0, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+sdixceyb6, Super Meat Boy, 63, 64009.6, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+sdoeg8t, Cuphead, 127, 61708.2, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+sdutsonqr, Animal Crossing New Leaf, 102, 55888.9, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+sdybaldex, Super Meat Boy, 79, 91827.2, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+semmf8, Super Mario Bros., 36, 86097.3, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+sfaughnanm8, SpongeBob SquarePants Battle for Bikini Bottom, 279, 24808.5, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+sgammieer, Halo 2, 47, 6776.1, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+sgeeve9j, Half-Life, 27, 74501.2, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+sgilbardli, The Legend of Zelda Ocarina of Time, 262, 80414.9, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+sgooddingmq, Halo CE, 46, 4725.6, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+sgrimditchkj, Super Mario Bros., 280, 35551.5, true, 2025-12-03, 2025-12-03T10:29:23.770531400
+sgrimmett4f, Cuphead, 296, 90549.8, false, 2025-12-03, 2025-12-03T10:29:23.758528
+shallmarkhp, Bananarang The Scattered Shards, 125, 29547.4, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+shoulaghan57, Dark Souls, 149, 49144.3, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+shullern5, FNAF SB, 16, 32742.5, false, 2025-12-03, 2025-12-03T10:29:23.771530600
+skasmanio, The Legend of Zelda Ocarina of Time, 299, 31001.3, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+skeighleyqa, Half-Life 2, 197, 75871.2, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+sklimmek58, New Super Mario Brothers, 279, 34156.3, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+slamasnajh, Mario & Luigi BIS (DS), 177, 56795.5, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+slarsit, SpongeBob SquarePants Battle for Bikini Bottom, 121, 59926.3, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+slisettep, Mario & Luigi BIS (DS), 107, 18742.7, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+slowselyij, The Legend of Zelda Ocarina of Time, 29, 74382.6, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+smaccombe4e, Halo 2, 19, 70192.4, true, 2025-12-03, 2025-12-03T10:29:23.758528
+smanie2d, Super Mario 64, 251, 99279.3, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+smcginlyp9, Dark Souls, 262, 80530.2, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+smcparlandey, Dark Souls, 155, 39240.7, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+smisselbrook6e, Portal, 30, 11514.7, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+snewhousejf, Half-Life, 16, 3330.2, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+sohickeer5, Super Meat Boy, 121, 22339.4, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+sorispy, Minecraft, 164, 7572.0, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+spawlowiczgz, Mario & Luigi BIS (DS), 220, 32590.5, false, 2025-12-03, 2025-12-03T10:29:23.767533800
+spiotrz, SpongeBob SquarePants Battle for Bikini Bottom, 11, 42397.7, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+srosengrenb4, Cuphead, 175, 88925.6, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+ssewardii, Minecraft, 24, 95277.2, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+ssuddickbg, Portal, 132, 79756.4, false, 2025-12-03, 2025-12-03T10:29:23.763527200
+sthurlbeck7y, Half-Life 2, 295, 90395.5, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+svanbaarenh3, Hollow Knight, 225, 3944.2, true, 2025-12-03, 2025-12-03T10:29:23.767533800
+swallace2s, Hollow Knight, 37, 79335.7, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+swoolgar32, Super Mario Bros., 118, 47776.7, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+taronon, SpongeBob SquarePants Battle for Bikini Bottom, 36, 68077.9, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+tashbeos, Portal 2, 298, 43455.9, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+tbehaggba, Half-Life 2, 102, 55303.1, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+tbemlottpb, Super Meat Boy, 7, 73571.6, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+tblackallergn, FNAF SB, 189, 63065.1, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+tbonellee5, FNAF SB, 98, 8362.9, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+tbownde6h, Half-Life, 289, 45954.7, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+tcliburnjr, Bananarang The Scattered Shards, 199, 22256.4, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+tdalston8o, The Legend of Zelda Ocarina of Time, 264, 44917.5, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+tditchburn6j, Hollow Knight, 146, 33991.5, false, 2025-12-03, 2025-12-03T10:29:23.760530400
+tdoltonl4, Half-Life Alyx, 248, 42350.1, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+tdowyerqe, Super Mario 64, 72, 17210.5, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+tdredge2w, Hollow Knight, 11, 40112.4, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+tharwick4i, Bananarang The Scattered Shards, 33, 58919.6, true, 2025-12-03, 2025-12-03T10:29:23.758528
+tjeffryesqv, Cuphead, 105, 8298.8, false, 2025-12-03, 2025-12-03T10:29:23.774531400
+tkennadyb, Half-Life, 170, 80389.6, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+tlaurenceaudx, Dark Souls, 11, 50495.5, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+tleftbridge2j, Halo CE, 221, 55509.1, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+tmenicoef, Super Mario 64, 84, 56343.1, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+tmerkelfj, FNAF SB, 200, 56707.7, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+tmilier1h, Celeste, 59, 62162.1, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+tpetrusa6, Hollow Knight, 204, 3785.0, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+trecordsfu, Half-Life 2, 274, 42570.0, true, 2025-12-03, 2025-12-03T10:29:23.766534800
+tricciardon1, Bananarang The Scattered Shards, 63, 96546.2, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+trussik6, Hollow Knight, 258, 39681.8, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+tsalamoni7, Super Mario Bros., 33, 84618.6, true, 2025-12-03, 2025-12-03T10:29:23.768537400
+tstonbridgejl, Halo 2, 235, 38455.5, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+tswendell26, Dark Souls, 14, 1217.2, false, 2025-12-03, 2025-12-03T10:29:23.756534300
+ttenneyod, SpongeBob SquarePants Battle for Bikini Bottom, 93, 43450.7, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+ttrevenakb, Bananarang The Scattered Shards, 40, 78771.9, false, 2025-12-03, 2025-12-03T10:29:23.769532400
+ttuxsellco, Dark Souls, 56, 73670.3, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+twhitebrookp6, Super Meat Boy, 9, 8683.2, true, 2025-12-03, 2025-12-03T10:29:23.773530700
+ubarrowsfp, Portal, 170, 4583.0, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+ubounde3y, Celeste, 82, 24079.7, true, 2025-12-03, 2025-12-03T10:29:23.758528
+uelward7w, Super Mario Bros., 192, 95750.4, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+ugertya2, Portal 2, 159, 5667.2, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+ugoodboddy3g, Cuphead, 258, 47649.8, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+umilsom65, Hollow Knight, 234, 35117.0, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+unoteyoung68, New Super Mario Brothers, 28, 29084.0, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+utanderkp, Celeste, 80, 94403.2, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+vambroise8f, New Super Mario Brothers, 83, 63131.6, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+vbadhamu, The Legend of Zelda Ocarina of Time, 274, 29749.9, false, 2025-12-03, 2025-12-03T10:29:23.755526400
+vbergeau4k, New Super Mario Brothers, 41, 68838.4, false, 2025-12-03, 2025-12-03T10:29:23.758528
+vblaszkiewiczot, Bloodborne, 107, 79051.1, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+vcarlettoeu, Portal 2, 171, 46670.6, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+vchitteypt, FNAF SB, 268, 79841.9, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+vdarycottax, Half-Life Alyx, 177, 5288.7, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+vfinedh, Half-Life 2, 235, 91858.6, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+vghiraldi9d, Super Mario 64, 72, 78635.8, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+vgodsal2u, Super Meat Boy, 300, 13952.8, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+vgutsellez, Halo 2, 141, 9030.0, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+vmeggison5, Celeste, 287, 98766.5, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+vmuro7i, Animal Crossing New Leaf, 141, 34860.1, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+vograda2h, FNAF SB, 149, 67112.8, false, 2025-12-03, 2025-12-03T10:29:23.757528700
+vpietasch7t, Portal, 179, 68413.1, true, 2025-12-03, 2025-12-03T10:29:23.761528200
+vsanham47, Super Mario Bros., 262, 1941.6, true, 2025-12-03, 2025-12-03T10:29:23.758528
+vswanstonam, Super Mario Bros., 17, 82989.1, true, 2025-12-03, 2025-12-03T10:29:23.762527800
+vwalcherkn, SpongeBob SquarePants Battle for Bikini Bottom, 192, 98411.7, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+wairdcy, Cuphead, 194, 34149.6, false, 2025-12-03, 2025-12-03T10:29:23.764528400
+waudisscl, Portal 2, 122, 22133.8, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+wborammm, Super Meat Boy, 175, 36617.6, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+wcleghornof, New Super Mario Brothers, 177, 15643.1, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+wdingwall4n, New Super Mario Brothers, 129, 27822.7, true, 2025-12-03, 2025-12-03T10:29:23.758528
+wdrydale90, Bloodborne, 252, 13055.3, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+wdunkleefd, Dark Souls, 84, 56854.6, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+wendicottd, Halo 2, 12, 76786.8, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+wfilipponilo, Hollow Knight, 116, 44828.4, false, 2025-12-03, 2025-12-03T10:29:23.770531400
+wfreeburnb9, Bananarang The Scattered Shards, 52, 28327.4, true, 2025-12-03, 2025-12-03T10:29:23.763527200
+wgoldes74, New Super Mario Brothers, 117, 682.8, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+whallasi9, Halo CE, 168, 87171.9, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+wheinig5a, Dark Souls, 30, 58076.6, true, 2025-12-03, 2025-12-03T10:29:23.759525200
+wieldengl, Super Mario Bros., 153, 80831.3, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+wjoder70, Mario & Luigi BIS (DS), 98, 52284.5, true, 2025-12-03, 2025-12-03T10:29:23.760530400
+wleechmandb, The Legend of Zelda Ocarina of Time, 148, 39991.3, true, 2025-12-03, 2025-12-03T10:29:23.764528400
+wlorriman2v, Portal 2, 93, 93729.2, true, 2025-12-03, 2025-12-03T10:29:23.757528700
+wokennedym2, New Super Mario Brothers, 145, 36067.9, true, 2025-12-03, 2025-12-03T10:29:23.771530600
+wpetoeh, Animal Crossing New Leaf, 146, 58521.4, true, 2025-12-03, 2025-12-03T10:29:23.765526400
+wpolamontayne9q, Dark Souls, 195, 14358.3, false, 2025-12-03, 2025-12-03T10:29:23.762527800
+wpophamjy, Halo 2, 230, 45933.1, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+wronayne5i, Portal 2, 145, 26330.7, false, 2025-12-03, 2025-12-03T10:29:23.759525200
+wsandev, Half-Life Alyx, 115, 82540.2, false, 2025-12-03, 2025-12-03T10:29:23.765526400
+wsheeres8i, Half-Life 2, 129, 98442.4, false, 2025-12-03, 2025-12-03T10:29:23.761528200
+wsmitherham21, Dark Souls, 136, 30455.3, true, 2025-12-03, 2025-12-03T10:29:23.756534300
+wstainburnjm, Super Meat Boy, 232, 5767.2, true, 2025-12-03, 2025-12-03T10:29:23.769532400
+wtillsnp, Cuphead, 257, 32621.2, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+xgligorijevicpa, Super Meat Boy, 239, 94559.6, false, 2025-12-03, 2025-12-03T10:29:23.773530700
+ycoslettoa, Bananarang The Scattered Shards, 53, 84286.2, false, 2025-12-03, 2025-12-03T10:29:23.772533600
+ykeanid, Half-Life Alyx, 215, 67229.2, false, 2025-12-03, 2025-12-03T10:29:23.768537400
+ywilby40, Super Mario 64, 100, 98404.4, true, 2025-12-03, 2025-12-03T10:29:23.758528
+zbraznellgr, Portal, 145, 48221.0, false, 2025-12-03, 2025-12-03T10:29:23.766534800
+zcarbonelloi, SpongeBob SquarePants Battle for Bikini Bottom, 90, 83699.4, true, 2025-12-03, 2025-12-03T10:29:23.772533600
+zcogmani, New Super Mario Brothers, 111, 86894.2, true, 2025-12-03, 2025-12-03T10:29:23.755526400
+zjordenp5, Animal Crossing New Leaf, 81, 62544.1, true, 2025-12-03, 2025-12-03T10:29:23.773530700

@@ -1,3 +1,4 @@
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -11,7 +12,7 @@ public class Runner {
     private boolean Has_World_Record;
     private LocalDate Join_Date;
     private LocalDateTime LastSubmission;
-
+    final LocalDate siteStart = LocalDate.of(2006, 6, 3);
 
     public Runner(String name, String game, int runs_Amount, double community_Rating, boolean has_world_Record, LocalDate join_date, LocalDateTime last_submission) {
         Name = name;
@@ -48,7 +49,12 @@ public class Runner {
     }
 
     public void setName(String name) {
-        Name = name;
+        if(name.equals("")){
+            throw new IllegalArgumentException("Wrong Data Format: Cannot Have Empty\nChange Not Saved");
+        }
+        else{
+            Name = name;
+        }
     }
 
 
@@ -57,8 +63,15 @@ public class Runner {
     }
 
     public void setGame(String game) {
-        Game = game;
+
+        if(game.equals("")){
+            throw new IllegalArgumentException("Wrong Data Format: Cannot Have Empty\nChange Not Saved");
+        }
+        else{
+            Game = game;
+        }
     }
+
 
 
     public int getRuns_Amount() {
@@ -66,7 +79,12 @@ public class Runner {
     }
 
     public void setRuns_Amount(int runs_Amount) {
-        Runs_Amount = runs_Amount;
+        if(runs_Amount < 0){
+            throw new IllegalArgumentException("Wrong Data Format: Cannot Have Negative Amount\nChange Not Saved");
+        }
+        else{
+            Runs_Amount = runs_Amount;
+        }
     }
 
 
@@ -74,9 +92,7 @@ public class Runner {
         return Community_Rating;
     }
 
-    public void setCommunity_Rating(double community_Rating) {
-        Community_Rating = community_Rating;
-    }
+    public void setCommunity_Rating(double community_Rating) {Community_Rating = community_Rating;}
 
 
     public boolean getHas_World_Record() {
@@ -92,13 +108,39 @@ public class Runner {
         return Join_Date;
     }
 
-    public void setJoinDate(LocalDate joinDate) {
-        Join_Date = joinDate;
+    public Duration getYearsActive(){
+
+        return Duration.between(Join_Date, LocalDate.now());
     }
+
+    public void setJoinDate(LocalDate joinDate) {
+        if(joinDate.isBefore(siteStart)){
+            throw new IllegalArgumentException("Wrong Date: Cannot Join Prior to Site's Start Date\nChange Not Saved");
+        }
+        else{
+            Join_Date = joinDate;
+        }
+
+    }
+
+
 
     public LocalDateTime getLastSubmission() { return LastSubmission; }
 
-    public void setLastSubmission(LocalDateTime lastSubmission) { LastSubmission = lastSubmission; }
+    public Duration getTimeSinceSubmission(){
+
+        return Duration.between(LastSubmission, LocalDateTime.now());
+    }
+
+    public void setLastSubmission(LocalDateTime lastSubmission) {
+        if(lastSubmission.isBefore(Join_Date.atStartOfDay())){
+            throw new IllegalArgumentException("Wrong Date: Cannot Join Prior to Site's Start Date\nChange Not Saved");
+        }
+        else{
+            LastSubmission = lastSubmission;
+        }
+
+    }
 
     @Override
     public String toString() {
@@ -113,15 +155,17 @@ public class Runner {
                 + this.Community_Rating +  delimiter + this.Has_World_Record + delimiter + this.Join_Date + delimiter + this.LastSubmission;
     }
 
-    public boolean equals(Runner otherObject){
-        if(otherObject == null){ return false;}
-        else if(getClass() != otherObject.getClass()){ return false;}
+    @Override
+    public boolean equals(Object otherObject){
+        if (this == otherObject){ return true;}
+        if (otherObject == null || getClass() != otherObject.getClass()) return false;
+
         Runner other = (Runner) otherObject;
 
-        return Name.equals(other.Name)
-                && Runs_Amount == other.Runs_Amount
-                && Community_Rating == other.Community_Rating
-                && Join_Date.equals(other.Join_Date);
+        return Runs_Amount == other.Runs_Amount
+                && Double.compare(other.Community_Rating, Community_Rating) == 0
+                && Objects.equals(Name, other.Name)
+                && Objects.equals(Join_Date, other.Join_Date);
     }
 
     public double RatingChange (double change){

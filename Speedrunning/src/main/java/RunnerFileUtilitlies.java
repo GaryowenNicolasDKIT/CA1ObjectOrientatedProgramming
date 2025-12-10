@@ -19,23 +19,36 @@ public class RunnerFileUtilitlies {
              BufferedReader bufferedReader = new BufferedReader(fileReader)) {
 
             String line;
+            boolean failed;
+            int counter = 0;
 
             while ((line = bufferedReader.readLine()) != null) {
+                counter++;
+                failed = false;
+                String[] data = line.split(deLimiter);
 
-                    String[] data = line.split(deLimiter);
+                if (data.length != 7) { throw new IllegalArgumentException("Wrong data format"); }
+                String name = data[0];String game = data[1];
+                int Runs_Amount;
+                double Community_Rating;
+                Boolean Has_World_Record;
+                LocalDate joinDate;
+                LocalDateTime lastSubmission;
 
-                    if (data.length != 7) { throw new IllegalArgumentException("Wrong data format"); }
+                try{Runs_Amount = Integer.parseInt(data[2]);} catch (NumberFormatException e) { failed = true; throw new IllegalArgumentException("Invalid Runs");  }
+                try{Community_Rating = Double.parseDouble(data[3]);}catch (NumberFormatException e) { failed = true; throw new IllegalArgumentException("Invalid Community Rating"); }
+                try{Has_World_Record = Boolean.parseBoolean(data[4]);}catch (NumberFormatException e) { failed = true; throw new IllegalArgumentException("Invalid Has World Record"); }
+                try{joinDate = LocalDate.parse(data[5]);}catch (NumberFormatException e) { failed = true; throw new IllegalArgumentException("Invalid Join Date"); }
+                try{lastSubmission = LocalDateTime.parse(data[6]);}catch (NumberFormatException e) { failed = true; throw new IllegalArgumentException("Invalid Last Submission Date"); }
 
-                    String name = data[0];
-                    String game = data[1];
-                    int Runs_Amount = Integer.parseInt(data[2]);
-                    double Community_Rating = Double.parseDouble(data[3]);
-                    Boolean Has_World_Record = Boolean.parseBoolean(data[4]);
-                    LocalDate joinDate = LocalDate.parse(data[5]);
-                    LocalDateTime lastSubmission = LocalDateTime.parse(data[6]);
-
-                    Runner runner = new Runner(name, game,  Runs_Amount, Community_Rating, Has_World_Record);
+                if(!failed) {
+                    Runner runner = new Runner(name, game,  Runs_Amount, Community_Rating, Has_World_Record, joinDate, lastSubmission);
                     runnerList.add(runner);
+                }
+                else{
+                    System.out.println("Skipping Line " + counter);
+                }
+
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -44,9 +57,6 @@ public class RunnerFileUtilitlies {
     }
 
     public static void addRunnerRecordToFile(String fileName, String deLimiter, Runner runner) {
-        ArrayList<Runner> runnerList = new ArrayList<>();
-
-
         try (FileWriter fileWriter = new FileWriter(fileName, true);
              BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
 
@@ -59,6 +69,26 @@ public class RunnerFileUtilitlies {
             e.printStackTrace();
         }
     }
+
+    public static void makeResultsFile(String fileName, String deLimiter, List<Runner> runners) {
+        File file =  new File(fileName);
+        for (Runner runner : runners) {
+            try (FileWriter fileWriter = new FileWriter(file, true);
+                 BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
+
+                fileWriter.write(("\n" + runner.getName() + deLimiter + runner.getGame()
+                        + deLimiter + runner.getRuns_Amount() + deLimiter +
+                        runner.getCommunity_Rating() + deLimiter + runner.getHas_World_Record()
+                        + deLimiter + runner.getJoinDate().toString() + deLimiter + runner.getLastSubmission().toString()));
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+
     public static void replaceRunnerRecordFile(String fileName, String deLimiter, List<Runner> runnerList) {
 
         try (FileWriter fileWriter = new FileWriter(fileName);

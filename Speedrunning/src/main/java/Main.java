@@ -6,56 +6,83 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.Collections;
+import java.time.LocalDate;
+import java.util.*;
 
 
 public class Main {
     Scanner s = new Scanner(System.in);
+
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Random ran = new Random();
+        HashMap<Runner, Integer> RunnerProfileIDs = new HashMap<>();
+        final LocalDate siteStart = LocalDate.of(2006, 6, 3);
+        Set<String> RunnerNames = new HashSet<>();
+        Set<String> GameNames = new HashSet<>();
+        Set<Runner> DuplicateDeleter = new HashSet<>();
 
 
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-
+        //Main Menu Loop
         for (int choice = Menu(); choice != 0; choice = Menu()) {
-            List<Runner> RunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+            List<Runner> RunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
+
+            int ID_Counter = 00001;
+            for (Runner runner : RunnersList) {
+                RunnerProfileIDs.put(runner, ID_Counter);
+                ID_Counter++;
+            }
+
+            for (Runner runner : RunnersList) {
+                RunnerNames.add(runner.getName());
+            }
+
+            for (Runner runner : RunnersList) {
+                GameNames.add(runner.getGame());
+            }
+
+            //First Choice
             if (choice == 1) {
+                //Calls the find function
                 Runner runnerToChange = findRunner();
                 System.out.println(AskChange(runnerToChange));
                 System.out.println(runnerToChange.toString());
-            } else if (choice == 2) {
+            }
+            //Second Choice
+            else if (choice == 2) {
+                //Calls the runner to alter the run number of
                 Runner runnerToChange = findRunner();
                 System.out.println(AddNumOfRuns(runnerToChange));
-                System.out.println(runnerToChange.toString());
-            } else if (choice == 3) {
+                System.out.println(runnerToChange);
+            }
+            //Third Choice
+            else if (choice == 3) {
                 boolean doneSort = false;
-                while (doneSort != true){
+                //Sub-menu
+                while (!doneSort){
                     int sortChoice = sortMenu();
                     if(sortChoice == 1){
-                        sortByName();
+                        sortBy("data.txt",new RunnerNameComparator());
                     }
                     else if (sortChoice == 2){
-                        sortByGame();
+                        sortBy("data.txt",new RunnerGameComparator());
                     }
                     else if (sortChoice == 3){
-                        sortByRuns();
+                        sortBy("data.txt",new RunnerRunsComparator());
                     }
                     if(sortChoice == 4){
-                        sortByRating();
+                        sortBy("data.txt",new RunnerRatingComparator());
                     }
                     else if (sortChoice == 5){
-                        sortByJoin();
+                        sortBy("data.txt",new RunnerJoinComparator());
                     }
                     else{
                         doneSort = true;
                     }
                 }
-            } else if (choice == 4) {
+            }
+            //Fourth Choice
+            else if (choice == 4) {
                 for (Runner runner : RunnersList) {
                     System.out.println(runner);
                 }
@@ -72,33 +99,33 @@ public class Main {
                 addRunnerToFile(R);
             }
 
-            //show by certain criteria
+            //Show by certain criteria
             else if (choice == 6) {
                 int ShowChoice = DisplaySubMenu();
 
                 while(ShowChoice != 0) {
 
-                    //show all users using a given name
+                    //Show all users using a given name
                     if(ShowChoice == 1) {
                         System.out.println(findRunner());
                     }
 
-                    //show all users using given game
+                    //Show all users using given game
                     else if (ShowChoice == 2) {
                         System.out.println("What game do you wish to view: ");
                         String searchGame = s.nextLine();
 
-                        for (int i = 0; i < RunnersList.size(); i++) {
-                            if (RunnersList.get(i).getGame().indexOf(searchGame) > -1) {
-                                System.out.println(RunnersList.get(i));
+                        for (Runner runner : RunnersList) {
+                            if (runner.getGame().contains(searchGame)) {
+                                System.out.println(runner);
                             }
                         }
                     }
 
-                    //show all users who have a world record
+                    //Show all users who have a world record
                     else if(ShowChoice == 3){
                         for (int i = 0; i < RunnersList.size(); i++) {
-                            if (RunnersList.get(i).getHas_World_Record() == true) {
+                            if (RunnersList.get(i).getHas_World_Record()) {
                                 System.out.println(RunnersList.get(i));
                             }
                         }
@@ -107,14 +134,148 @@ public class Main {
                     ShowChoice = DisplaySubMenu();
                 }
             }
-        }
 
+            //Counting how many games a player has run
+            else if (choice == 7) {
+                System.out.println("Please insert the users name you wish to see how many games they've run: ");
+                String playerName = s.nextLine();
+                String output = NumOfGamesPlayed(playerName, RunnersList);
+
+                System.out.println(output);
+            }
+
+            //Counting how many people playa certain game
+            else if (choice == 8) {
+                System.out.println("Please insert the game name you wish to see how many people run: ");
+                String GameName = s.nextLine();
+                String output = NumOfRunners(GameName, RunnersList);
+
+                System.out.println(output);
+            }
+
+            //Show all runners hashcode
+            else if (choice == 9) {
+                for (Runner runner : RunnersList) {
+                    System.out.println(runner.getName() + " " +  runner.getGame());
+                    System.out.println("Their Hashcode: " + runner.hashCode());
+                }
+            }
+
+            //view hashcode of chosen runner
+            else if (choice == 10) {
+                System.out.println("Enter runner you wish to see hashcode of: ");
+                String runnerForHash = s.nextLine();
+                findRunnersHash(runnerForHash,  RunnersList);
+            }
+
+            //view total hashmap
+            else if (choice == 11) {
+                System.out.println(RunnerProfileIDs);
+            }
+
+            //find specific users ID
+            else if (choice == 12) {
+                System.out.println("Select Runner: ");
+                String RunnerChoice = s.nextLine();
+
+                for(Runner runner : RunnersList){
+                    if(runner.getName().equals(RunnerChoice)) {
+                        System.out.println(runner);
+                        System.out.println("Their ID: " + RunnerProfileIDs.get(runner));
+                    }
+                }
+            }
+
+            else if (choice == 13) {
+                System.out.println("Select Runner ID: ");
+                int IDChoice = s.nextInt();
+
+                for(Runner runner : RunnersList){
+                    if(RunnerProfileIDs.get(runner).equals(IDChoice)) {
+                        System.out.println(runner);
+                        System.out.println("Their ID: " + RunnerProfileIDs.get(runner));
+                    }
+                }
+            }
+            else if (choice == 14){
+                System.out.println("Select Date you Wish to Compare");
+                System.out.println("(In the format DAY-MONTH-YEAR please)");
+                String dateInput = s.nextLine();
+                System.out.println("Find Runners made after or before this date?");
+                String decision = s.nextLine();
+                String[] dateSplit = dateInput.split("-");
+                LocalDate date = LocalDate.of(Integer.parseInt(dateSplit[2]), Integer.parseInt(dateSplit[1]), Integer.parseInt(dateSplit[0]));
+                if (decision.equalsIgnoreCase("before")){
+                    RunnerFileUtilitlies.makeResultsFile("RunnersBefore"+date,", ",findBetween(siteStart,date,RunnersList));
+                }
+                else if (decision.equalsIgnoreCase("after")){
+                    RunnerFileUtilitlies.makeResultsFile("RunnersAfter" + date,", ",findBetween(date,LocalDate.now(),RunnersList));
+                }
+                else{
+                    System.out.println("ERROR. PLEASE INPUT BEFORE OR AFTER");
+                }
+            }
+
+            //view all runners
+            else if (choice == 15) {
+                for(String name: RunnerNames){
+                        System.out.println(name);
+                }
+            }
+
+            else if (choice == 16) {
+                for(String game: GameNames){
+                    System.out.println(game);
+                }
+            }
+
+
+
+            //delete duplicates
+            /*
+           else if (choice == 17) {
+
+               //work in progress code
+                for(Runner runner : RunnersList){
+                    DuplicateDeleter.add(runner);
+                }
+           }
+
+
+           Runner[] TempForRunners = (Runner[]) DuplicateDeleter.toArray();
+
+           for(Runner runner : TempForRunners){
+               r.updateRunnerRecordInFile("data.txt",", ", runner);
+           }*/
+            else if (choice == 18){
+                System.out.println("Please input the number of runners you wish to see");
+                int Number = s.nextInt();
+                System.out.println("Would you like to see the top " + Number + " by rating, or by their run number?");
+                String topBy = s.nextLine();
+                System.out.println("In general or for a specific game? If the former, please input NA");
+                String byGame = s.nextLine();
+                if(Number > 0 && (topBy.equalsIgnoreCase("Rating") || topBy.equalsIgnoreCase("Runs"))) {
+                    List<Runner> listToPrint = topNumberIn(Number,byGame, !byGame.equalsIgnoreCase("na"),topBy);
+                    int count = 0;
+                    for(Runner runner : listToPrint){
+                        count++;
+                        System.out.println(count + ": " + runner.toString());
+                    }
+                }
+            }
+
+            //finding duplicates using hashmap
+            else if(choice == 19){
+                String duplicateFinder = DuplicateFinder(RunnerProfileIDs);
+                System.out.println(duplicateFinder);
+            }
+        }
     }
 
     //Community score changer
     public static String AskChange(Runner r) {
         Scanner s = new Scanner(System.in);
-        double by = (double) 0.0F;
+        double by = 0.0F;
         System.out.println("Would you like to add or take away community score: ");
         String choice = s.nextLine();
         if (choice.equalsIgnoreCase("add")) {
@@ -123,16 +284,15 @@ public class Main {
         } else if (choice.equalsIgnoreCase("take")) {
             System.out.println("How Much: ");
             by = (double) s.nextInt();
-            by *= (double) -1.0F;
+            by *= -1.0F;
         }
 
         r.RatingChange(by);
-        RunnerFileUtilitlies runF = new RunnerFileUtilitlies();
-        runF.updateRunnerRecordInFile("data.txt",", ", r);
+        RunnerFileUtilitlies.updateRunnerRecordInFile("data.txt",", ", r);
         return r.getName() + " now has a rating of " + r.getCommunity_Rating();
     }
 
-    //lets player add a chosen number of runs to player
+    //Lets player add a chosen number of runs to player
     public static String AddNumOfRuns(Runner r) {
         System.out.println("Runner = " + r.getName());
         Scanner s = new Scanner(System.in);
@@ -141,16 +301,15 @@ public class Main {
         System.out.println("Is this run a world record?");
         String e = s.nextLine();
         String wr = s.nextLine();
-        if ((wr.equalsIgnoreCase("yes") || wr.equalsIgnoreCase("y")
-                || wr.equalsIgnoreCase("no") || wr.equalsIgnoreCase("n")) != true)
+        if (!(wr.equalsIgnoreCase("yes") || wr.equalsIgnoreCase("y")
+                || wr.equalsIgnoreCase("no") || wr.equalsIgnoreCase("n")))
                 { throw new IllegalArgumentException("Wrong data format"); }
         r.RunChange(runs, wr);
-        RunnerFileUtilitlies runF = new RunnerFileUtilitlies();
-        runF.updateRunnerRecordInFile("data.txt",", ", r);
+        RunnerFileUtilitlies.updateRunnerRecordInFile("data.txt",", ", r);
         return r.getName() + " now has " + r.getRuns_Amount() + " runs.";
     }
 
-    //shows the user the menu options
+    //Shows the user the menu options
     public static int Menu() {
         Scanner s = new Scanner(System.in);
         int choice = 0;
@@ -161,7 +320,20 @@ public class Main {
                 "3 = Sort Players \n" +
                 "4 = Display Players \n" +
                 "5 = Add new Runner\n" +
-                "6 = Diplay specific users");
+                "6 = Display specific users\n" +
+                "7 = How many games a player runs\n"+
+                "8 = how many players run a a game\n"+
+                "9 = Show hashcode for all runners\n"+
+                "10 = View hashcode of chosen runner\n"+
+                "11 = View Hashmap\n"+
+                "12 = Find specific users IDs\n"+
+                "13 = Find user using ID\n" +
+                "14 = Find users within a date\n"+
+                "15 = View all runners\n"+
+                "16 = View all games being ran\n"+
+                "17 = Delete duplicates\n" +
+                "18 = Show Top Runners (By Rating)\n"+
+                "19 = is there duplicates");
         choice = s.nextInt();
         return choice;
     }
@@ -181,8 +353,7 @@ public class Main {
     }
 
     public static Runner findRunner(){
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> RunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
+        List<Runner> RunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
         Scanner s = new Scanner(System.in);
         System.out.println("What runner do you wish to view: ");
         String searchName = s.nextLine();
@@ -197,57 +368,53 @@ public class Main {
     }
 
     public static void addRunnerToFile(Runner r1) {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        r.addRunnerRecordToFile("data.txt",", ", r1);
-        sortByGame();
+        RunnerFileUtilitlies.addRunnerRecordToFile("data.txt",", ", r1);
+        sortBy("data.txt",new RunnerGameComparator());
         System.out.println("\n Runner Added & List Sorted by Game \n ");
     }
 
-    public static String sortByName() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerNameComparator NameCompare = new RunnerNameComparator();
-        tempRunnersList.sort(NameCompare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Name \n");
-        return "\n Runners List Sorted By Name \n";
+
+    public static List<Runner> sortBy(String fileName, Comparator<Runner> c) {
+        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile(fileName,", ");
+        tempRunnersList.sort(c);
+        RunnerFileUtilitlies.replaceRunnerRecordFile(fileName,", ", tempRunnersList);
+        System.out.println("\n Runners List Sorted \n");
+        return tempRunnersList;
     }
-    public static String sortByGame() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerGameComparator GameCompare = new RunnerGameComparator();
-        tempRunnersList.sort(GameCompare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Game \n");
-        return "\n Runners List Sorted By Game \n";
+
+    public static List<Runner> topNumberIn(int number, String game, boolean byGame, String SortBy){
+        List<Runner> tempRunnersList = RunnerFileUtilitlies.loadRunnerRecordFromFile("data.txt",", ");
+        if(SortBy.equalsIgnoreCase("runs")){
+            tempRunnersList.sort(new RunnerRunsComparator());
+        }
+        else{
+            tempRunnersList.sort(new RunnerRatingComparator());
+        }
+        List<Runner> finalRunnersList = new ArrayList<>();
+        int count = 0;
+        if(byGame){
+            for (int i = 0; i < tempRunnersList.size(); i++) {
+                if (tempRunnersList.get(i).getGame().equals(game) && count != number) {
+                    finalRunnersList.add(tempRunnersList.get(i));
+                    count++;
+                }
+            }
+        }
+        else{
+            for (int i = 0; i < tempRunnersList.size(); i++) {
+                if(count!= number){
+                    finalRunnersList.add(tempRunnersList.get(i));
+                    count++;
+                }
+            }
+        }
+        if(count != 5){
+            System.out.println("ERROR!\nLess than 5 runners fit criteria. Displaying top " + count);
+        }
+        return finalRunnersList;
     }
-    public static String sortByJoin() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerJoinComparator Compare = new RunnerJoinComparator();
-        tempRunnersList.sort(Compare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Join Date \n");
-        return "\n Runners List Sorted By Join Date \n";
-    }
-    public static String sortByRating() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerRatingComparator Compare = new RunnerRatingComparator();
-        tempRunnersList.sort(Compare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Rating \n");
-        return  "\n Runners List Sorted By Rating \n";
-    }
-    public static String sortByRuns() {
-        RunnerFileUtilitlies r = new RunnerFileUtilitlies();
-        List<Runner> tempRunnersList = r.loadRunnerRecordFromFile("data.txt",", ");
-        RunnerRunsComparator Compare = new RunnerRunsComparator();
-        tempRunnersList.sort(Compare);
-        r.replaceRunnerRecordFile("data.txt",", ", tempRunnersList);
-        System.out.println("\n Runners List Sorted By Run Number \n");
-        return "\n Runners List Sorted By Run Number \n";
-    }
+
+
 
     public static int DisplaySubMenu(){
         Scanner s = new Scanner(System.in);
@@ -257,12 +424,210 @@ public class Main {
                            "2: Game\n" +
                            "3: who has a world record\n" +
                            "4: return back to main menu");
-
-        int choice = s.nextInt();
-
-
-        return choice;
+        return s.nextInt();
     }
+
+    //counting how many games a player has run
+    public static String NumOfGamesPlayed(String name, List<Runner> ListOfPlayers){
+
+        String output = "";
+        int gameCounter = 0;
+        boolean UserFound = false;
+        boolean endLoop = false;
+        int counter = 0;
+        //temp info to let code run
+        Runner a = new Runner("AAAA", "AAAA");
+
+        //test to see if list is being taken into function
+        //System.out.println(ListOfPlayers.toString());
+
+        while(!endLoop){
+
+            //test to see if function enters for loop
+            //System.out.println("Entered while loop");
+
+            if(name.equals(ListOfPlayers.get(counter).getName())) {
+
+                //test
+                //System.out.println("If statement worked");
+
+                a = ListOfPlayers.get(counter);
+
+                //test to see if a is being given a value
+                //System.out.println("runner" + a.getName());
+                //gameCounter++;
+                UserFound = true;
+                endLoop = true;
+            }
+
+            counter++;
+
+            if(counter == ListOfPlayers.size()){
+                endLoop = true;
+            }
+
+        }
+
+        //testing if chosen user sticks
+        //System.out.println("does chosen user stick \n"+a);
+        //testing if bollean sticks
+        //System.out.println(UserFound);
+
+        if(UserFound){
+            for (int j = 0; j < ListOfPlayers.size(); j++) {
+
+
+                Runner temp=  ListOfPlayers.get(j);
+
+                String a1 = a.getName();
+                String temp1 = temp.getName();
+
+                //test if takes in runner for temp
+                //System.out.println(temp.getName());
+
+                if (a1.equals(temp1)) {
+                    //temp to see if this code is running
+                    System.out.println("is this running or not");
+
+                    gameCounter++;
+                }
+            }
+            output = name + " runs " + gameCounter + " games";
+        }
+
+        else{
+            output = "User not found";
+        }
+
+        return output;
+
+    }
+
+    //counting how many runners a play a game
+    public static String NumOfRunners(String game,List<Runner> ListOfPlayers){
+        String output = "";
+        int PlayerCounter = 0;
+        boolean GameFound = false;
+        boolean endLoop = false;
+        int counter = 0;
+        //temp info to let code run
+        Runner a = new Runner("AAAA", "AAAA");
+
+        while(!endLoop){
+
+            //test to see if function enters for loop
+            //System.out.println("Entered while loop");
+
+            if(game.equals(ListOfPlayers.get(counter).getGame())) {
+
+                //test
+                //System.out.println("If statment worked");
+
+                a = ListOfPlayers.get(counter);
+
+                //test to see if a is being given a value
+                //System.out.println("runner" + a.getName());
+                //PlayerCounter++;
+                GameFound = true;
+                endLoop = true;
+            }
+
+            counter++;
+
+            if(counter == ListOfPlayers.size()){
+                endLoop = true;
+            }
+
+        }
+
+        if(GameFound){
+            for (int j = 0; j < ListOfPlayers.size(); j++) {
+
+                Runner temp=  ListOfPlayers.get(j);
+
+                String a1 = a.getGame();
+                String temp1 = temp.getGame();
+
+                //test if takes in runner for temp
+                //System.out.println(temp.getName());
+
+
+                if (a1.hashCode() == temp1.hashCode()) {
+                    PlayerCounter++;
+                }
+            }
+            output = game + " has " + PlayerCounter + " player run it";
+        }
+
+        else{
+            output = "Game not found";
+        }
+
+        return output;
+    }
+
+    //finding an entry using a hashcode
+    public static Runner FindRunnerUsingHash(int hash, List<Runner> ListOfPlayers){
+        //temp info to let code run
+        Runner a = new Runner("AAAA", "AAAA");
+
+        for (Runner runner : ListOfPlayers) {
+            if(hash == runner.hashCode()){
+                a = runner;
+            }
+        }
+
+        return a;
+    }
+
+    //finding chosen runners hash
+    public static void findRunnersHash(String name, List<Runner> ListOfPlayers){
+        for (Runner runner : ListOfPlayers) {
+            if(name.equals(runner.getName())){
+                System.out.println(runner);
+                System.out.println("Runners hashcode: " + runner.hashCode());
+            }
+        }
+
+    }
+
+
+    public static List<Runner> findBetween (LocalDate lower, LocalDate upper, List<Runner> runners){
+        //List of runners that fit the criteria
+        List<Runner> finalRunnerList = new ArrayList<>();
+        for (Runner runner : runners){
+            //Checks if the join date falls between the bounds
+            if(runner.getJoinDate().isAfter(lower) && runner.getJoinDate().isBefore(upper)){
+                //If falls between, added to final list
+                finalRunnerList.add(runner);
+            }
+        }
+        return finalRunnerList;
+    }
+
+    //looking for duplicates
+    public static String DuplicateFinder(HashMap<Runner, Integer> RunnerProfileIDs){
+        String output = "";
+
+        for (Runner runner : RunnerProfileIDs.keySet()){
+            Runner temp = runner;
+
+            for(Runner runner2 : RunnerProfileIDs.keySet()){
+                if(runner.equals(runner2) && RunnerProfileIDs.get(runner2) != RunnerProfileIDs.get(runner)){
+                    output = (output + (RunnerProfileIDs.get(runner) + " and " +  RunnerProfileIDs.get(runner2) + " are duplicates") + "\n");
+                }
+            }
+        }
+
+        return output;
+    }
+
 }
+
+//BigBill Deltarune
+//Their Hashcode: 1695699884
+
+//BigBill Deltarune
+//Their Hashcode: -2035032499
 
 
